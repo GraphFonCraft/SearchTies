@@ -4,9 +4,8 @@ import "base.proto";           // подключаем описания protobuf
 import "articles_base.proto";  // Файлы base.proto и articles_base.proto встроены в компилятор.
                                // Их необходимо включать в начало любого gzt-словаря.
 import "facttypes.proto";
-
-// статья с нашей грамматикой:
-TAuxDicArticle "словосочетания"
+							   
+TAuxDicArticle "словосочетания" // статья с нашей грамматикой:
 {
     key = { "tomita:combo.cxx" type=CUSTOM }
 }

@@ -1,10 +1,23 @@
 import os
+import re
+import codecs
 import subprocess
 
-tomita_directory = ("/srv/http/app/tomita/")
-#texts_directory = ('..\\texts\\') #for dynamic tomita configuration 
+tomita_directory = (u'../tomita/')
+texts_directory = (u'../texts/') 
+facts_directory = (u'../facts/') 
+tomita_config_path = (tomita_directory + u'config.proto')
+tomita_parser_path = (tomita_directory + u'tomitaparser')
 
-#files = os.listdir(texts_directory)
-#for file in files: #for dynamic tomita configuration 
+config_pattern = codecs.open(tomita_config_path, 'r', "utf-8").read()
 
-result = subprocess.call([tomita_directory + 'tomita-linux32', tomita_directory +'config.proto'])
+files = os.listdir(texts_directory) #dynamic tomita configuration
+for file in files:  
+	config_file = codecs.open(tomita_config_path,'w', "utf-8")
+	config_pattern = re.sub(u'Input = {File = ".*?"',u'Input = {File = "' + texts_directory + file + u'"',config_pattern) 
+	config_pattern = re.sub(u'Output = {File = ".*?"',u'Output = {File = "' + facts_directory + file + u'"',config_pattern)
+	config_file.write(config_pattern)
+	config_file.close()
+	
+	result = subprocess.call([tomita_parser_path, tomita_config_path])
+
