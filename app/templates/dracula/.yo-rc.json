@@ -1,0 +1,27 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "SearchTies Dracula Template",
+      "versionControl": "git",
+      "useServer": false,
+      "singlePageApplication": false,
+      "htmlOption": "jade",
+      "jsOption": "none",
+      "cssOption": "sass",
+      "sassSyntax": "sass",
+      "useBourbon": false,
+      "cssFramework": "foundation",
+      "useGA": true,
+      "jshint": false,
+      "extras": [
+        "useModernizr"
+      ],
+      "useJsdoc": false,
+      "useKss": false,
+      "useDashboard": false,
+      "useTesting": false,
+      "useFTP": false
+    },
+    "version": "0.12.1"
+  }
+}

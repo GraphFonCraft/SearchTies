@@ -1,0 +1,15 @@
+//- Homepage Markup
+extends layouts/base
+
+block content
+	main.site-container.row
+		h1.site-title.text-center=data.title
+		.search-wrapper.citu-wrapper: .search-wrapper-target.citu-target.row
+			.search-field.medium-5.small-centered.columns
+				input(type='search' placeholder=data['description-short'] autofocus).search-target
+				span.search-icon
+					small.label.secondary Enter
+			p.site-description.medium-5.large-4.small-centered.columns=data.description
+	footer.site-footer.row
+		.small-12.columns.text-right
+			include:md data/footer.md
