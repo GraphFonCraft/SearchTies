@@ -1,3 +1,3 @@
 $(document).on('ready', function(){
-	$('.js-search-submit').click();
+	//$('.js-search-submit').click();
 });

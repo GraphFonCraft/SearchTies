@@ -2,52 +2,832 @@
   "data" : {
     "testdata" : {
       "id100" : {
-        "query" : "Гагарин",
+        "query" : "бетономешалка",
         "data" : [
           {
-            "title" : "ЗАПАДНАЯ ОБЛАСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "1"
-          },
-          {
-            "title" : "ГАГАРИНСКИЙ РАЙОН",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "1"
-          },
-          {
-            "title" : "СМОЛЕНСКАЯ ОБЛАСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "1"
-          },
-          {
-            "title" : "ЕГО ОТЕЦ",
+            "title" : "ТАКАЯ КОНСТРУКЦИЯ",
             "source" : "http://wqrqwfasf.asfasf/asfas",
             "weight" : "5"
           },
           {
-            "title" : "ЕГО ДЕДУШКА",
+            "title" : "ИСХОДНЫЕ КОМПОНЕНТЫ",
             "source" : "http://wqrqwfasf.asfasf/asfas",
             "weight" : "5"
           },
           {
-            "title" : "ПУТИЛОВСКИЙ ЗАВОД",
+            "title" : "ЖЕСТКИЕ БЕТОНЫ",
             "source" : "http://wqrqwfasf.asfasf/asfas",
             "weight" : "5"
           },
           {
-            "title" : "ЕГО УЧЕБА",
+            "title" : "КАЖДОМ КОРПУСЕ",
             "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "10"
+            "weight" : "5"
           },
           {
-            "title" : "НЕМЕЦКИЙ ВОЙСКА",
+            "title" : "ДАННОГО САЙТА",
             "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "10"
+            "weight" : "5"
           },
           {
-            "title" : "КРАСНАЯ АРМИЯ",
+            "title" : "МИНИМАЛЬНЫМИ НАГРУЗКАМИ",
             "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "10"
+            "weight" : "5"
+          },
+          {
+            "title" : "СТРОИТЕЛЬНОЙ ТЕХНИКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БЕТОННЫЕ СМЕСИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОКОВЫХ СТЕНОК",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТАЛЬНЫЕ ШТЫРИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СОБСТВЕННОГО ВЕСА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ДРУГОЙ РЕГИОН",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРИНУДИТЕЛЬНЫХ БЕТОНОМЕШАЛОК",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОЛЬШОМ ОБЪЕМЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭТОЙ СЕТИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "МЯГКОЙ РЕЗИНЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТАРЫХ УГОЛКОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОСНОВНЫЕ ПРЕИМУЩЕСТВА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СВОИМИ РУКАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГРАВИТАЦИОННЫХ БЕТОНОСМЕСИТЕЛЕЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПЛАНЕТАРНОГО МЕХАНИЗМА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ТАКИХ ПОДВЕСОК",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДИНАКОВЫМ НАРУЖНЫМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЧЕРВЯЧНЫЙ РЕДУКТОР",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СРЕДНЕЙ ПОЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ИМЕЮЩИХСЯ МАТЕРИАЛОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭТИХ НЕДОСТАТКОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГЕОМЕТРИЧЕСКИЙ ОБЪЕМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "МИНИМАЛЬНОЙ ДОРАБОТКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭЛЕКТРИЧЕСКАЯ БЕТОНОМЕШАЛКА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РУЧНЫМ ПРИВОДОМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЛЕГКИЕ ЛОПАСТИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЕЕ КОМПОНЕНТОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ИМЕЮЩИХСЯ ДЕТАЛЕЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОФИЦИАЛЬНЫМИ ДИЛЕРАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "КАРТОЧНЫЕ ПЕТЛИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "САДОВУЮ ТАЧКУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОСНОВНЫЕ ДОСТОИНСТВА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ИНОЙ ТЕХНИКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОПИСАННОЙ КОНСТРУКЦИИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРОФЕССИОНАЛЬНЫХ БЕТОНОМЕШАЛОК",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОБЫЧНАЯ БОЧКА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРЕДЫДУЩЕГО ВАРИАНТА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВНУТРЕННИМИ ДИАМЕТРАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ДОННЫЙ ЗАТВОР",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВНЕШНЕЙ СТОРОНЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СОКРАЩЕННАЯ ПРОДОЛЖИТЕЛЬНОСТЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРИНУДИТЕЛЬНЫХ БЕТОНОСМЕСИТЕЛЕЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ТРАНСПОРТНОЙ КОМПАНИЕЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЗАГРУЖЕННУЮ БОЧКУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОКОВОЙ ПОВЕРХНОСТИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "КОНДЕНСАТОРНЫМ ВКЛЮЧЕНИЕМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПОЛНЫЙ СПЕКТР",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "НЕОБХОДИМУЮ УСТОЙЧИВОСТЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ДОПОЛНИТЕЛЬНЫМИ НАКЛАДКАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОПРЕДЕЛЕННОЙ ПРОПОРЦИИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДНУ СТОРОНУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВРАЩАЮЩИЕСЯ ЛОПАСТИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РАВНОМ РАССТОЯНИИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДНОФАЗНЫЙ ЭЛЕКТРОДВИГАТЕЛЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "НЕБОЛЬШИЕ РАЗМЕРЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "САМОДЕЛЬНОЙ БЕТОНОМЕШАЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОТЕЧЕСТВЕННЫХ ЗАВОДОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "КАРАБИННЫМИ ЗАЩЕЛКАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СООТВЕТСТВУЮЩЕЕ ПРОСТРАНСТВО",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "НИЗКИМ ЦЕНАМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ДРУГУЮ СТОРОНУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭТОТ САЙТ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БЫТОВЫЕ БЕТОНОМЕШАЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РАБОЧАЯ СКОРОСТЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "МНОГОКРАТНОМУ ПОДЪЕМУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПЕРЕМЕШИВАЮЩЕЙСЯ МАССЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПОЛНЫХ ОБОРОТОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВНУТРЕННИМ ДИАМЕТРОМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "АКТИВНЫЕ ССЫЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "САМОДЕЛЬНАЯ БЕТОНОМЕШАЛКА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРЯМОУГОЛЬНОЕ ОТВЕРСТИЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДНОЙ РУКОЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГОРИЗОНТАЛЬНЫЕ ОПОРЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВРЕМЕННОГО СКЛАДИРОВАНИЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДНОРОДНЫЙ СОСТАВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОСТАЛЬНЫХ СЛУЧАЯХ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭТОГО УЗЛА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВСЕ ДЕТАЛИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЦИЛИНДРИЧЕСКИМИ ШЕСТЕРНЯМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "МЯГКОЙ СТАЛИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ТОЧНОЙ ВЫГРУЗКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЛЕГКОГО ПОВОРОТА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЕЕ ДИАМЕТРА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭЛЕКТРИЧЕСКИЕ БЕТОНОМЕШАЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПЕРВОЙ БЕТОНОМЕШАЛКЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "200-ЛИТРОВАЯ БОЧКА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТЯГИВАЮЩИХ БОЛТОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПОИСКОВЫМИ РОБОТАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОЛЬШОГО ЗНАЧЕНИЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРИНУДИТЕЛЬНОГО ДЕЙСТВИЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЗАКРЫТОМ СОСТОЯНИИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВРАЩАЮЩЕМСЯ БАРАБАНЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ДЕШЕВОЕ ПРЕДЛОЖЕНИЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГРАВИТАЦИОННОЕ ПЕРЕМЕШИВАНИЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРИВОДНОГО ВАЛА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ХОРОШУЮ СМАЗКУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВЕРХНЕЙ ЧАСТИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПРОФЕССИОНАЛЬНЫМ ЭЛЕКТРОИНСТРУМЕНТОМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "САЛЬНЫХ УГОЛКОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЛЮБЫХ ПОДРУЧНЫХ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГОТОВОГО БЕТОНА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПОЛНАЯ РАЗГРУЗКА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТРОИТЕЛЬНО-ОТДЕЛОЧНЫХ МАШИН",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "САМОМ НИЗУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОПРОКИДЫВАЮЩАЯ ЕМКОСТЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "КРАЙНЕМ СЛУЧАЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЭТОГО ПРОИЗВОДИТЕЛЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТЯЖНЫХ БОЛТОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВАШЕЙ СТРОЙКЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВСЕЙ РОССИИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ИСХОДНЫХ КОМПОНЕНТОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БЕТОННЫХ РАБОТ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЛЕБЕДЯНСКОГО ЗАВОДА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВЕРТИКАЛЬНЫМ РОТОРОМ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ТРАНСПОРТНУЮ КОМПАНИЮ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТРОИТЕЛЬНЫХ МАТЕРИАЛОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЛИСТОВОЙ СТАЛИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВНУТРЕННИЕ ФЛАНЦЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СЛЕДУЮЩИЙ ЭТАП",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РАЗНЫХ ТИПОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РУЧНАЯ БЕТОНОМЕШАЛКА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ТОРЦЕВЫХ КРЫШКАХ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БРОНЗОВЫМИ ВТУЛКАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СЕКТОРНЫМИ ЗАТВОРАМИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЕГО ЗАЩИТУ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БАРАБАННОЙ БЕТОНОМЕШАЛКОЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БЕТОННЫЕ РАБОТЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГРАВИТАЦИОННОГО ТИПА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДНОЙ СТОРОНЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГОТОВЫЙ БЕТОН",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВЕРТИКАЛЬНЫЕ СТОЙКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "МИНИМАЛЬНЫЙ ЗАЗОР",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГРАВИТАЦИОННОГО ДЕЙСТВИЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ШАРИКОВЫЕ ПОДШИПНИКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПОСЛЕГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ФУНДАМЕНТНЫХ РАБОТАХ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОЛЬШИХ ОБОРОТАХ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВОДОПРОВОДНОЙ ТРУБЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "МЕЛКИЙ ГРАВИЙ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "КАТОРЖНЫЙ ТРУД",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РАЗЛИЧНЫХ РАЗМЕРОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ЕЁ ОПРОКИДЫВАНИЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ГОТОВОЙ СМЕСИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ВЫСОКАЯ УНИВЕРСАЛЬНОСТЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ШИРОКИЙ АССОРТИМЕНТ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОЛЬШАЯ ЧАСТЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТАЦИОНАРНЫЕ БЕТОНОМЕШАЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "СТРОИТЕЛЬНЫЕ РАСТВОРЫ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "НАША КОМПАНИЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОБЫЧНОМ МАГАЗИНЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ДИСКОВАЯ ПИЛА",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "БОЛЬШИХ ОБЪЕМОВ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДИН ДЕНЬ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ТОМ ЧИСЛЕ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ОДИН КОНЕЦ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "РАЗЛИЧНОЙ ПОДВИЖНОСТИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ФИРМЕННОЙ БЕТОНОМЕШАЛКИ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "ПОЛНОГО ПЕРЕМЕШИВАНИЯ",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
+          },
+          {
+            "title" : "НЕБОЛЬШОЙ ДИАМЕТР",
+            "source" : "http://wqrqwfasf.asfasf/asfas",
+            "weight" : "5"
           }
         ]
       }

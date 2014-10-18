@@ -10,31 +10,6 @@ body
 		size: cover
 p
 	color: $body-font-color
-.search
-	&-wrapper
-		+citu-wrapper
-		@extend %fullscreen
-		@extend %layer-absolute
-		min-height: 15*$phi+em
-		&-target
-			width: 100% !important
-	&-field
-		position: relative
-	$search-text-color: $color-invert
-	&-icon
-		color: $search-text-color
-		position: absolute
-		top: 50%
-		right: 1.5em
-		margin:
-			top: -0.7em
-		pointer-events: none
-		> *
-			vertical-align: middle
-	&-target
-		+citu-target
-		padding: 1/$phi+em
-		border: 0
 .site
 	&-container
 		padding:
@@ -42,11 +17,6 @@ p
 		> *
 			@extend %layer-normal
 	&-footer
-		position: absolute
-		bottom: 0
-		left: 0
-		width: 100%
-		@extend %layer-normal
 		&,*
 			color: darken($body-font-color, 10%)
 			font:
@@ -55,3 +25,15 @@ p
 		font:
 			size: 4em
 			family: $font-title
+	&-description
+		@extend %arrived-hide
+.results-arrived
+	%arrived-hide
+		display: none
+	%arrived-search-wrapper
+		position: relative !important
+		width: auto
+		height: auto
+		min-height: 0
+		&::before
+			display: none
