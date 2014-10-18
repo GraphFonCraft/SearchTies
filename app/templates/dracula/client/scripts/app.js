@@ -3,21 +3,9 @@ $(document).ready(function(){
 	var class_results_shown='results-arrived';
 	var spawnpoint=$('.js-results-spawn');
 	search_submit=function(key){
-		var testdata_id;
-		switch(key) {
-			case 0:
-				testdata_id = testdata0;
-				break;
-			case 1:
-				testdata_id = testdata1;
-				break;
-			case 2:
-				testdata_id = testdata2;
-				break;
-		}
 		spawnpoint.children().remove();
 		spawnpoint.jQCloud('destroy');
-		spawnpoint.jQCloud(testdata_id);
+		spawnpoint.jQCloud(eval('testdata'+key));
 		$('body').addClass(class_results_shown);
 	};
 	$('.js-search-submit').on('click', function(){
