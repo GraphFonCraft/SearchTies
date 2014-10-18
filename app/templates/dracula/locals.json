@@ -2,6 +2,9 @@
   "data" : {
     "title" : "Shellob",
     "description" : "Введите в строку любую фразу и мы найдём наиболее связанные с ней факты.",
-    "description-short" : "Любое слово или фраза"
+    "description-short" : "Любое слово или фраза",
+    "l10n" : {
+      "input-submit" : "Узнать"
+    }
   }
 }
