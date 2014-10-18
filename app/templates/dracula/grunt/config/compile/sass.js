@@ -9,9 +9,8 @@ var taskConfig = function(grunt) {
         server: {
             options: {
                 precision: 10,
-                outputStyle: 'nested',
-                sourceMap: true,
-                includePaths: [
+                style: 'nested',
+                loadPath: [
                     '<%= yeogurt.client %>/styles/'
                 ]
             },
@@ -22,9 +21,8 @@ var taskConfig = function(grunt) {
         dist: {
             options: {
                 precision: 10,
-                outputStyle: 'compressed',
-                sourceMap: true,
-                includePaths: [
+                style: 'compressed',
+                loadPath: [
                     '<%= yeogurt.client %>/styles/'
                 ]
             },
