@@ -1,8 +1,13 @@
 # coding=utf-8
 
 from BeautifulSoup import BeautifulSoup
+#from __future__ import print_function
+from alchemyapi import AlchemyAPI
+
 import urllib2
+import random
 import re
+import json
 
 def getTopDuck2GoUrls(queryString):
     queryTemplate = "http://duckduckgo.com/html/?q="
@@ -17,5 +22,13 @@ def getTopDuck2GoUrls(queryString):
 
     return links
 
-for link in  getTopDuck2GoUrls("Корова"):
-    print link
+def getArticleText(articleUrl):
+    alchemyapi = AlchemyAPI()
+    response = alchemyapi.text('url', articleUrl)
+
+    return response['text'].encode('utf-8')
+
+relatedUrls = getTopDuck2GoUrls("Печенька")
+randomIndex = random.randint(0, len(relatedUrls) - 1)
+
+print(getArticleText(relatedUrls[randomIndex]))
