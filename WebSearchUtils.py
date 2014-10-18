@@ -5,7 +5,7 @@ import urllib2
 import re
 
 def getTopDuck2GoUrls(queryString):
-    queryTemplate = u"http://duckduckgo.com/html/?q="
+    queryTemplate = "http://duckduckgo.com/html/?q="
     queryUrl = queryTemplate + queryString
     site = urllib2.urlopen(urllib2.Request(queryUrl))
     htmlResponse = site.read()
@@ -17,5 +17,5 @@ def getTopDuck2GoUrls(queryString):
 
     return links
 
-for link in  getTopDuck2GoUrls(u"Карова"):
+for link in  getTopDuck2GoUrls("Корова"):
     print link
