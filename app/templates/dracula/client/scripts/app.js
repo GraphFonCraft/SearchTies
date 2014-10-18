@@ -1,11 +1,10 @@
 $(document).ready(function(){
 	$('a[href^="http"]').attr('target','_blank');
 	var class_results_shown='results-arrived';
-	var spawnpoint=$('.js-results-spawn');
 	search_submit=function(key){
 		spawnpoint.children().remove();
 		spawnpoint.jQCloud('destroy');
-		spawnpoint.jQCloud(eval('testdata'+key));
+		search_spawn(key);
 		$('body').addClass(class_results_shown);
 	};
 	$('.js-search-submit').on('click', function(){

@@ -27,7 +27,6 @@ var taskConfig = function(grunt) {
                 cwd: '<%= yeogurt.client %>/',
                 dest: '<%= yeogurt.dist %>/',
                 src: [
-                    'bower_components/modernizr/modernizr.js',
                     'bower_components/**/*.{woff,otf,ttf,eot,svg}',
                     '!*.js',
                     '*.{ico,png,txt}',

@@ -16,10 +16,10 @@ html.no-js(lang='ru')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		link(href='//www.google-analytics.com', rel='dns-prefetch')
 
-		// build:css(client) styles/main.css
-		link(rel='stylesheet', href='/bower_components/jqcloud2/dist/jqcloud.css')
-		link(rel='stylesheet', href='/styles/main.css')
+		// build:css(client) styles/global.css
+		link(rel='stylesheet' href='/bower_components/jqcloud2/dist/jqcloud.css')
 		// endbuild
+		link(rel='stylesheet' href='styles/main.css')
 	body
 		block content
 
@@ -39,23 +39,10 @@ html.no-js(lang='ru')
 		//script(src='/bower_components/foundation/js/foundation/foundation.js')
 		// endbuild
 
+		block scripts
 		// build:js(client) scripts/app.js
 		// [injector:js]
 		<script src="scripts/tests.js"></script>
 		// [endinjector]
-		if get_data_test
-			script
-				-for(var i=0; i<3; ++i)
-					-var dataitem=data.testdata[i]
-					-var array_id='testdata'+i
-					| var #{array_id}_query='#{dataitem.query}';
-					| var #{array_id}=[];
-					each item in dataitem.data
-						| #{array_id}.push({
-						| text: '#{item.title}',
-						| weight: '#{item.weight}',
-						| source: '#{item.source}'
-						| });
-					//-| console.log(testdata);
 		script(src='/scripts/app.js')
 		// endbuild

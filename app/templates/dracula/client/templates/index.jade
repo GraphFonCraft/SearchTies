@@ -30,4 +30,30 @@ block content
 			if get_data_test
 				include:md data/footer.md
 			else
-				{{footer}}
+				| {{footer}}
+append scripts
+	script.
+		var spawnpoint=$('.js-results-spawn');
+	if get_data_test
+		script.
+			search_spawn=function(key){
+				spawnpoint.jQCloud(eval('testdata'+key));
+			};
+		-for(var i=0; i<3; ++i)
+			-var dataitem=data.testdata[i]
+			-var array_id='testdata'+i
+			script.
+				var #{array_id}_query='#{dataitem.query}';
+				var #{array_id}=[];
+			each item in dataitem.data
+				script.
+					#{array_id}.push({
+						text: '#{item.title}',
+						weight: '#{item.weight}',
+						source: '#{item.source}'
+					});
+	else
+		script.
+			search_spawn=function(array){
+				spawnpoint.jQCloud(array);
+			};
