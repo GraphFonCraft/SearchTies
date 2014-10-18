@@ -2,6 +2,7 @@
 extends layouts/base
 
 block content
+	.js-results-spawn.results-wrapper
 	main.site-container.row
 		h1.site-title.text-center=site_title
 		.search-wrapper.citu-wrapper
@@ -11,7 +12,7 @@ block content
 						.small-8.columns
 							input(type='search' placeholder=get_data(data['description-short'], '{{description-short}}') autofocus)
 						.small-4.columns
-							button.postfix(type='submit')=get_data(data.l10n['input-submit'], '{{l10n.input-submit}}')
+							button.js-search-submit.postfix(type='button')=get_data(data.l10n['input-submit'], '{{l10n.input-submit}}')
 				p.site-description.medium-5.large-4.small-centered.columns=site_description
 	footer.site-footer.row
 		.small-12.columns.text-right

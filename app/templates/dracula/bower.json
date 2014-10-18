@@ -8,7 +8,8 @@
     "normalize-scss": "~3.0.1",
     "sass-citu": "http://codepen.io/Grawl/pen/iqaBF.sass",
     "modular-scale": "~2.0.5",
-    "fontpack": "~0.1.0"
+    "fontpack": "~0.1.0",
+    "jqcloud2": "~2.0.1"
   },
   "devDependencies": {}
 }

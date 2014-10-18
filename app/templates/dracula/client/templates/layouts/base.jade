@@ -37,6 +37,17 @@ html.no-js(lang='ru')
 
 		// build:js(client) scripts/app.js
 		// [injector:js]
+		<script src="scripts/tests.js"></script>
 		// [endinjector]
+		if get_data_test
+			script
+				| var testdata=[];
+				each item in data.testdata.id100.data
+					| testdata.push({
+					| title: '#{item.title}',
+					| weight: '#{item.weight}',
+					| source: '#{item.source}'
+					| });
+				| console.log(testdata);
 		script(src='/scripts/app.js')
 		// endbuild
