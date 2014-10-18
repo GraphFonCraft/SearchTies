@@ -12,15 +12,16 @@ def parser(xmlfile):
 			str = '"' + (itemlist1[i].attributes['val'].value).encode('utf-8') + " " + (itemlist2[i].attributes['val'].value).encode('utf-8') + '"'
 			list.add(str)
 	
-	need_output = '{"id100" : {"source" : "http://" : [\n'
+	need_output = '{"id100" : {"source" : "http://" , "data" : [\n'
 	i = 0
 	for item in list:
 		i+=1
 		if i != len(list):
 			need_output += item + ',\n '
 		else:
-			need_output += item  + '\n]}}'	
-	
+			need_output += item 	
+
+	need_output += '\n]}}'
 	return need_output
 
 #print(parser("/srv/http/app/facts/text"))
