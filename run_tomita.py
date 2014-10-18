@@ -1,12 +1,13 @@
+# coding=utf-8
 import os
 import re
 import codecs
 import subprocess
 
-def run_tomita():
-	tomita_directory = (u'../tomita/')
-	texts_directory = (u'../texts/') 
-	facts_directory = (u'../facts/') 
+def tomita():
+	tomita_directory = (u'/srv/http/app/tomita/')
+	texts_directory = (u'/srv/http/app/texts/') 
+	facts_directory = (u'/srv/http/app/facts/') 
 	tomita_config_path = (tomita_directory + u'config.proto')
 	tomita_parser_path = (tomita_directory + u'tomitaparser')
 
