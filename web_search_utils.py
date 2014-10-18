@@ -30,6 +30,9 @@ def getArticleText(articleUrl):
 
     return response['text'].encode('utf-8')
 
+def getSoupArticleText(articleUrl):
+    return "AlternativeFastFunc"
+	
 def printToFile(links):
 	output_file = codecs.open("/srv/http/app/texts/text",'w', "utf-8")
 	for i in range(3): #3 for debug
