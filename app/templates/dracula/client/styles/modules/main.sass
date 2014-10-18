@@ -2,12 +2,6 @@ html
 	@extend %full-height
 body
 	@extend %full-height
-	background:
-		color: black
-		image: image-url('background-limbo.png')
-		repeat: no-repeat
-		position: center center
-		size: cover
 p
 	color: $body-font-color
 .site
@@ -17,11 +11,15 @@ p
 		> *
 			@extend %layer-normal
 	&-footer
+		position: fixed
+		bottom: 0
+		right: 0
 		&,*
 			color: darken($body-font-color, 10%)
 			font:
 				size: small
 	&-title
+		z-index: 10
 		font:
 			size: 4em
 			family: $font-title
@@ -37,3 +35,6 @@ p
 		min-height: 0
 		&::before
 			display: none
+.row
+	.row
+		max-width: $row-width

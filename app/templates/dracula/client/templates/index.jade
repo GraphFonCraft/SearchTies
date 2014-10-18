@@ -8,11 +8,22 @@ block content
 			.search-wrapper-target.citu-target.row
 				form.search-field.medium-5.small-centered.columns
 					.row.collapse
+						-var search_accessibility=get_data_test?'disabled':undefined
 						.small-8.columns
-							input(disabled type='search' placeholder=get_data(data['description-short'], '{{description-short}}') autofocus)
+							input(disabled=search_accessibility type='search' placeholder=get_data(data['description-short'], '{{description-short}}') autofocus)
 						.small-4.columns
-							button.js-search-submit.postfix(type='button')=get_data(data.l10n['input-submit'], '{{l10n.input-submit}}')
-				p.site-description.medium-5.large-4.small-centered.columns=site_description
+							button.js-search-submit.postfix(disabled=search_accessibility type='button')=get_data(data.l10n['input-submit'], '{{l10n.input-submit}}')
+				p.site-description.medium-5.large-5.small-centered.columns=site_description
+				p
+					=data.l10n['for-example']
+					-var limit=3
+					-for(var i=0; i<limit; ++i)
+						a(href=default_url data-id=i).js-search-suggestion=data.testdata[i].query
+						//-span=testdata.length
+						if i<limit-2
+							=', '
+						if i==limit-2
+							=' или '
 		.js-results-spawn.results-wrapper
 	footer.site-footer.row
 		.small-12.columns.text-right

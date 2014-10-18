@@ -45,14 +45,17 @@ html.no-js(lang='ru')
 		// [endinjector]
 		if get_data_test
 			script
-				| var testdata_query='#{data.testdata.id100.query}';
-				| var testdata=[];
-				each item in data.testdata.id100.data
-					| testdata.push({
-					| text: '#{item.title}',
-					| weight: '#{item.weight}',
-					| source: '#{item.source}'
-					| });
-				//-| console.log(testdata);
+				-for(var i=0; i<3; ++i)
+					-var dataitem=data.testdata[i]
+					-var array_id='testdata'+i
+					| var #{array_id}_query='#{dataitem.query}';
+					| var #{array_id}=[];
+					each item in dataitem.data
+						| #{array_id}.push({
+						| text: '#{item.title}',
+						| weight: '#{item.weight}',
+						| source: '#{item.source}'
+						| });
+					//-| console.log(testdata);
 		script(src='/scripts/app.js')
 		// endbuild

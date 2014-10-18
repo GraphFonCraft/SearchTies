@@ -1,842 +1,3648 @@
 {
-  "data" : {
-    "testdata" : {
-      "id100" : {
-        "query" : "бетономешалка",
-        "data" : [
-          {
-            "title" : "ТАКАЯ КОНСТРУКЦИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ИСХОДНЫЕ КОМПОНЕНТЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЖЕСТКИЕ БЕТОНЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "КАЖДОМ КОРПУСЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДАННОГО САЙТА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МИНИМАЛЬНЫМИ НАГРУЗКАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТРОИТЕЛЬНОЙ ТЕХНИКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БЕТОННЫЕ СМЕСИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОКОВЫХ СТЕНОК",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТАЛЬНЫЕ ШТЫРИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СОБСТВЕННОГО ВЕСА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДРУГОЙ РЕГИОН",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРИНУДИТЕЛЬНЫХ БЕТОНОМЕШАЛОК",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОЛЬШОМ ОБЪЕМЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭТОЙ СЕТИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МЯГКОЙ РЕЗИНЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТАРЫХ УГОЛКОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОСНОВНЫЕ ПРЕИМУЩЕСТВА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СВОИМИ РУКАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГРАВИТАЦИОННЫХ БЕТОНОСМЕСИТЕЛЕЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПЛАНЕТАРНОГО МЕХАНИЗМА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ТАКИХ ПОДВЕСОК",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДИНАКОВЫМ НАРУЖНЫМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЧЕРВЯЧНЫЙ РЕДУКТОР",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СРЕДНЕЙ ПОЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ИМЕЮЩИХСЯ МАТЕРИАЛОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭТИХ НЕДОСТАТКОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГЕОМЕТРИЧЕСКИЙ ОБЪЕМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МИНИМАЛЬНОЙ ДОРАБОТКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭЛЕКТРИЧЕСКАЯ БЕТОНОМЕШАЛКА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РУЧНЫМ ПРИВОДОМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЛЕГКИЕ ЛОПАСТИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЕЕ КОМПОНЕНТОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ИМЕЮЩИХСЯ ДЕТАЛЕЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОФИЦИАЛЬНЫМИ ДИЛЕРАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "КАРТОЧНЫЕ ПЕТЛИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "САДОВУЮ ТАЧКУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОСНОВНЫЕ ДОСТОИНСТВА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ИНОЙ ТЕХНИКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОПИСАННОЙ КОНСТРУКЦИИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРОФЕССИОНАЛЬНЫХ БЕТОНОМЕШАЛОК",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОБЫЧНАЯ БОЧКА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРЕДЫДУЩЕГО ВАРИАНТА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВНУТРЕННИМИ ДИАМЕТРАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДОННЫЙ ЗАТВОР",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВНЕШНЕЙ СТОРОНЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СОКРАЩЕННАЯ ПРОДОЛЖИТЕЛЬНОСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРИНУДИТЕЛЬНЫХ БЕТОНОСМЕСИТЕЛЕЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ТРАНСПОРТНОЙ КОМПАНИЕЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЗАГРУЖЕННУЮ БОЧКУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОКОВОЙ ПОВЕРХНОСТИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "КОНДЕНСАТОРНЫМ ВКЛЮЧЕНИЕМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПОЛНЫЙ СПЕКТР",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "НЕОБХОДИМУЮ УСТОЙЧИВОСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДОПОЛНИТЕЛЬНЫМИ НАКЛАДКАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОПРЕДЕЛЕННОЙ ПРОПОРЦИИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДНУ СТОРОНУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВРАЩАЮЩИЕСЯ ЛОПАСТИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РАВНОМ РАССТОЯНИИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДНОФАЗНЫЙ ЭЛЕКТРОДВИГАТЕЛЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "НЕБОЛЬШИЕ РАЗМЕРЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "САМОДЕЛЬНОЙ БЕТОНОМЕШАЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОТЕЧЕСТВЕННЫХ ЗАВОДОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "КАРАБИННЫМИ ЗАЩЕЛКАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СООТВЕТСТВУЮЩЕЕ ПРОСТРАНСТВО",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "НИЗКИМ ЦЕНАМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДРУГУЮ СТОРОНУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭТОТ САЙТ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БЫТОВЫЕ БЕТОНОМЕШАЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РАБОЧАЯ СКОРОСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МНОГОКРАТНОМУ ПОДЪЕМУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПЕРЕМЕШИВАЮЩЕЙСЯ МАССЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПОЛНЫХ ОБОРОТОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВНУТРЕННИМ ДИАМЕТРОМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "АКТИВНЫЕ ССЫЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "САМОДЕЛЬНАЯ БЕТОНОМЕШАЛКА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРЯМОУГОЛЬНОЕ ОТВЕРСТИЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДНОЙ РУКОЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГОРИЗОНТАЛЬНЫЕ ОПОРЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВРЕМЕННОГО СКЛАДИРОВАНИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДНОРОДНЫЙ СОСТАВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОСТАЛЬНЫХ СЛУЧАЯХ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭТОГО УЗЛА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВСЕ ДЕТАЛИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЦИЛИНДРИЧЕСКИМИ ШЕСТЕРНЯМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МЯГКОЙ СТАЛИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ТОЧНОЙ ВЫГРУЗКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЛЕГКОГО ПОВОРОТА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЕЕ ДИАМЕТРА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭЛЕКТРИЧЕСКИЕ БЕТОНОМЕШАЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПЕРВОЙ БЕТОНОМЕШАЛКЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "200-ЛИТРОВАЯ БОЧКА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТЯГИВАЮЩИХ БОЛТОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПОИСКОВЫМИ РОБОТАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОЛЬШОГО ЗНАЧЕНИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРИНУДИТЕЛЬНОГО ДЕЙСТВИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЗАКРЫТОМ СОСТОЯНИИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВРАЩАЮЩЕМСЯ БАРАБАНЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДЕШЕВОЕ ПРЕДЛОЖЕНИЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГРАВИТАЦИОННОЕ ПЕРЕМЕШИВАНИЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРИВОДНОГО ВАЛА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ХОРОШУЮ СМАЗКУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВЕРХНЕЙ ЧАСТИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПРОФЕССИОНАЛЬНЫМ ЭЛЕКТРОИНСТРУМЕНТОМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "САЛЬНЫХ УГОЛКОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЛЮБЫХ ПОДРУЧНЫХ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГОТОВОГО БЕТОНА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПОЛНАЯ РАЗГРУЗКА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТРОИТЕЛЬНО-ОТДЕЛОЧНЫХ МАШИН",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "САМОМ НИЗУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОПРОКИДЫВАЮЩАЯ ЕМКОСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "КРАЙНЕМ СЛУЧАЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЭТОГО ПРОИЗВОДИТЕЛЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТЯЖНЫХ БОЛТОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВАШЕЙ СТРОЙКЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВСЕЙ РОССИИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ИСХОДНЫХ КОМПОНЕНТОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БЕТОННЫХ РАБОТ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЛЕБЕДЯНСКОГО ЗАВОДА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВЕРТИКАЛЬНЫМ РОТОРОМ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ТРАНСПОРТНУЮ КОМПАНИЮ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТРОИТЕЛЬНЫХ МАТЕРИАЛОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЛИСТОВОЙ СТАЛИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВНУТРЕННИЕ ФЛАНЦЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СЛЕДУЮЩИЙ ЭТАП",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РАЗНЫХ ТИПОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РУЧНАЯ БЕТОНОМЕШАЛКА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ТОРЦЕВЫХ КРЫШКАХ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БРОНЗОВЫМИ ВТУЛКАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СЕКТОРНЫМИ ЗАТВОРАМИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЕГО ЗАЩИТУ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БАРАБАННОЙ БЕТОНОМЕШАЛКОЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БЕТОННЫЕ РАБОТЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГРАВИТАЦИОННОГО ТИПА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДНОЙ СТОРОНЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГОТОВЫЙ БЕТОН",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВЕРТИКАЛЬНЫЕ СТОЙКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МИНИМАЛЬНЫЙ ЗАЗОР",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГРАВИТАЦИОННОГО ДЕЙСТВИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ШАРИКОВЫЕ ПОДШИПНИКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПОСЛЕГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ФУНДАМЕНТНЫХ РАБОТАХ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОЛЬШИХ ОБОРОТАХ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВОДОПРОВОДНОЙ ТРУБЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "МЕЛКИЙ ГРАВИЙ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "КАТОРЖНЫЙ ТРУД",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РАЗЛИЧНЫХ РАЗМЕРОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ЕЁ ОПРОКИДЫВАНИЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ГОТОВОЙ СМЕСИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ВЫСОКАЯ УНИВЕРСАЛЬНОСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ШИРОКИЙ АССОРТИМЕНТ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОЛЬШАЯ ЧАСТЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТАЦИОНАРНЫЕ БЕТОНОМЕШАЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "СТРОИТЕЛЬНЫЕ РАСТВОРЫ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "НАША КОМПАНИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОБЫЧНОМ МАГАЗИНЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ДИСКОВАЯ ПИЛА",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "БОЛЬШИХ ОБЪЕМОВ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДИН ДЕНЬ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ТОМ ЧИСЛЕ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ОДИН КОНЕЦ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "РАЗЛИЧНОЙ ПОДВИЖНОСТИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ФИРМЕННОЙ БЕТОНОМЕШАЛКИ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "ПОЛНОГО ПЕРЕМЕШИВАНИЯ",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          },
-          {
-            "title" : "НЕБОЛЬШОЙ ДИАМЕТР",
-            "source" : "http://wqrqwfasf.asfasf/asfas",
-            "weight" : "5"
-          }
-        ]
-      }
-    },
-    "title" : "Shellob",
-    "description" : "Введите в строку любую фразу и мы найдём наиболее связанные с ней факты.",
-    "description-short" : "Любое слово или фраза",
-    "l10n" : {
-      "input-submit" : "Узнать"
-    }
-  }
+	"data": {
+		"testdata": [
+			{
+				"query": "кампус-двфу",
+				"data": [
+					{
+						"title": "КРУПНЕЙШЕЙ НАБЕРЕЖНОЙ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИБРЕЖНАЯ ЗОНА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "МЕЖДУНАРОДНОЕ СОТРУДНИЧЕСТВО",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "ВЫСТАВОЧНЫЙ ЦЕНТР",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЕ ГОДЫ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "НАСТОЯЩАЯ ЖЕМЧУЖИНА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ВОЕННОЕ ОБУЧЕНИЕ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "КОНТАКТНАЯ ИНФОРМАЦИЯ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "РЕАЛИЗОВАННЫЙ ПРОЕКТ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ТЕЛЕФОННЫЙ СПРАВОЧНИК",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИЕМНАЯ КОМИССИЯ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКАЯ ЖИЗНЬ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНО-НАУЧНЫХ ЛАБОРАТОРИЙ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ТЕХНИЧЕСКАЯ ПОДДЕРЖКА",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "КОМФОРТАБЕЛЬНЫХ ОБЩЕЖИТИЙ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ФЕДЕРАЛЬНЫЙ УНИВЕРСИТЕТ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "МИРОВЫХ ВУЗОВ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "НАУЧНАЯ БИБЛИОТЕКА",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "ФИРМЕННЫЙ СТИЛЬ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "ЭЛЕКТРОННОГО УНИВЕРСИТЕТА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ФЕДЕРАЛЬНОГО УНИВЕРСИТЕТА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "КВАДРАТНЫХ МЕТРОВ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ЭЛЕКТРОННУЮ КАРТУ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ОБРАЗОВАТЕЛЬНОЙ ДЕЯТЕЛЬНОСТИ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ЧИСТОМ РАЙОНЕ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ТЕННИСНЫЕ КОРТЫ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ВТОРОЙ ОЧЕРЕДИ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "НОЧНЫЕ КЛУБЫ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ПРЕДЫДУЩАЯ ВЕРСИЯ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСЛЕДНЕМУ СЛОВУ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ДАЛЬНЕГО ВОСТОКА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЙ ЦЕНТР",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "СОВРЕМЕННЫМ СТАНДАРТАМ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "СПЕЦИАЛЬНАЯ ВЕРСИЯ",
+						"source": "http://www.dvfu.ru/web/campus/karta",
+						"weight": "5"
+					},
+					{
+						"title": "АДМИНИСТРАТИВНЫМ ПРОЦЕССОМ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЙ ГОРОД",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ИНФОРМАЦИОННУЮ СИСТЕМУ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "КОНЦЕРТНЫХ ЗАЛА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ИГРОВЫЕ ПЛОЩАДКИ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "КРАСИВЕЙШЕЙ БУХТЫ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ТВОРЧЕСКИЕ ЦЕНТРЫ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "ТОМ ЧИСЛЕ",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНЫЕ КОРПУСА",
+						"source": "http://www.dvfu.ru/web/campus",
+						"weight": "5"
+					}
+				]
+			},
+			{
+				"query": "студент",
+				"data": [
+					{
+						"title": "РОССИЙСКОЙ ФЕДЕРАЦИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СТУДЕНЧЕСКОЕ ОБЩЕЖИТИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ГОСУДАРСТВЕННОМ УНИВЕРСИТЕТЕ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОТ ТЕРМИН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЕ ПЕРЕЕЗДЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "УЧЕБНОГО ЗАВЕДЕНИЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "СОЦИОЛОГИЧЕСКОГО ИССЛЕДОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ИНОСТРАННЫХ СЛОВ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГОЙ РЕСУРС",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНОМ ЗАВЕДЕНИИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "НОВЫХ ВСТРЕЧ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕ ПЕРВОКУРСНИКИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕХ СТРАН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ТЕ ВРЕМЕНА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "РУССКИЙ ЯЗЫК",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ВЫСОКИМИ БАЛЛАМИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕМ ЛЮДЯМ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ЭТОЙ СВОБОДОЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "БЫВАЛОГО ЧЕЛОВЕКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНЫХ ЗАВЕДЕНИЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДИПЛОМНУЮ РАБОТУ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "РАЗВЛЕКАТЕЛЬНЫЙ БЛОК",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СТАРШИХ КУРСАХ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКОЙ ЖИЗНИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ИНТЕРЕСНАЯ ЖИЗНЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "РУССКОЙ РЕЧИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "РАННИЙ ПЕРИОД",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПЕРВЫХ УНИВЕРСИТЕТОВ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "КАНЦЕЛЯРСКИЕ ПРИНАДЛЕЖНОСТИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "МЕЖДУНАРОДНЫЕ СТУДЕНТЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ЭТО НАЗВАНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "БОЛЬШЕЕ РАСПРОСТРАНЕНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПОСИЛЬНОЕ САМОПОЗНАНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НАЗЫВАЕМЫЙ ОБРЯД",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОСНОВНАЯ ЦЕЛЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ТРУДОВОЙ КОЛЛЕКТИВ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ОЧНОГО ОТДЕЛЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДРУГИЕ ЗНАЧЕНИЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ИНОГОРОДНИЕ СТУДЕНТЫ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕГО СТУДЕНЧЕСТВА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЗАЧЕТНАЯ КНИЖКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "МЕЖДУНАРОДНЫЙ ДЕНЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "СЖАТОГО КУРСА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "КАЖДЫЙ АБИТУРИЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НАСТОЯЩИЙ МОМЕНТ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "РОДИТЕЛЬСКИЙ ДОМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЖИЛИЩНОЙ ПРОБЛЕМЫ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ФЕДЕРАЛЬНОГО ЗАКОНА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ЭТУ КЛЯТВУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОФЕССИОНАЛЬНОМ ОБРАЗОВАНИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ОГРАНИЧЕННЫМИ ЗНАНИЯМИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДЕЛОВУЮ ПРОГРАММУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕДИНЫЙ ДОКУМЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКОЙ СРЕДЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "АКТИВНЫМ УЧАСТНИКАМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СТРОИТЕЛЬНЫЙ ОТРЯД",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "БОЛОНСКАЯ СИСТЕМА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ТОЛКОВЫЙ СЛОВАРЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОХЛАДНОЙ ЖИЗНИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОЙ СТРАНЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "УЧЕБНЫХ ЗАВЕДЕНИЯХ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "КАНЦЕЛЯРСКИХ ПРИНАДЛЕЖНОСТЕЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НЕСКОЛЬКИХ ВУЗАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДЕТСКИЙ ВОСТОРГ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОИХ ВУЗАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "БОЛЬШОЙ СЛОВАРЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "СИЕ УТВЕРЖДЕНИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НАСТОЯЩЕГО ВРЕМЕНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДРУГИХ ОКРУГОВ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ОБЩЕСТВЕННОЙ ЖИЗНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СВОЕЙ СЕМЬИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПРОСТРАНСТВЕННАЯ МОБИЛЬНОСТЬ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДРУГИХ ЯЗЫКАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПОЛОЖИТЕЛЬНУЮ ОЦЕНКУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕГО ОКРУГА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ВЫСШЕГО ОБРАЗОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "УДОБНОЙ НАВИГАЦИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОТ ВОПРОС",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "КЛЮЧЕВЫМ ДОКУМЕНТОМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "РОССИЙСКОМ ПРАВЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НЕОТЪЕМЛЕМОЙ СОСТАВЛЯЮЩЕЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СЕМЕЙНЫЙ СТУДЕНТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "РУССКОГО ЯЗЫКА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "НАЗЫВАЕМОМУ ШВЕЙЦАРУ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГИХ СТРАН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЙ ПОРТАЛ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОМ ОТНОШЕНИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "КРУПНЕЙШАЯ ЯРМАРКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОДНАЯ ЭНЦИКЛОПЕДИЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЗАСЛУЖЕННЫЙ ПРОФЕССОР",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "БЫВАЛЫХ ЛЮДЕЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "КУРСОВЫЕ РАБОТЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ВСЕ ЗАПИСИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕСЕЛЫХ ГУЛЯНИЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ИНЫЕ ПРАВИЛА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ВЕЧЕРНЕГО ОБУЧЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НОЧНЫХ БДЕНИЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ИХ КОРНЕЙ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЁ ПЕРЕМЕЩЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ВСЕ СТУДЕНТЫ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭЛЕКТРОННАЯ КНИГА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЮБЫЕ ЛИЦА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ЛИЧНЫЕ СВЯЗИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "САМОГО НАЧАЛА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ИДЕАЛЬНЫЙ СТУДЕНТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ОПЫТНЫХ ЛЮДЕЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НАШЕГО ВНИМАНИЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НАДЛЕЖАЩЕГО ПОКОЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЕ ПОЛУЧЕНИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЯЗАТЕЛЬНЫМ РИТУАЛОМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЗАУМНОЕ ЗВАНИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЩЕСТВЕННО-ПОЛИТИЧЕСКОЙ ЖИЗНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СОЦИАЛЬНОЙ СТИПЕНДИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕНАЯ СТЕПЕНЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ВЫСШЕЙ ШКОЛЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "УЧЁНЫХ ЗВАНИЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ЗАЧЕТНУЮ КНИЖКУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТИМОЛОГИЧЕСКИЙ СЛОВАРЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "НЕОФИЦИАЛЬНОЙ ЧАСТИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ФЕДЕРАЛЬНЫЙ ЗАКОН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СТУДЕНЧЕСКАЯ ПОДВИЖНОСТЬ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НЕКОТОРЫХ СТРАНАХ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "МОСКОВСКИЕ СТУДЕНТЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПРОФЕССИОНАЛЬНЫЙ РОСТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "МОЙ УНИВЕРСИТЕТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "РОССИЙСКАЯ ИМПЕРИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ЛЮБОЙ СТУДЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СТУДЕНЧЕСКОЙ БРАТИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СПЕЦИАЛЬНОГО ОБРАЗОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДЛИННЫМ ЖЕЗЛОМ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОГО ТЕРМИНА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСТОЯННОГО ПРОЖИВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЕ ПЕСНИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СООТВЕТСТВУЮЩЕЙ СТУПЕНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СТУДЕНЧЕСКИЕ ШАЛОСТИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "НЕУСТРОЕННЫЙ БЫТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "САНИТАРНОГО ПОРЯДКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНОГО ЗАВЕДЕНЬЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕСЕЛУЮ ВЕРСИЮ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОЛЕЗНОЙ ИНФОРМАЦИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ВКУСНЫЕ ПИРОЖКИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДРЕВНЕМ РИМЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НОВОИСПЕЧЕННЫХ СТУДЕНТОВ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСЛЕДНИЙ ЗВОНОК",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "КОМАНДНО-АДМИНИСТРАТИВНЫМИ ПРИЁМАМИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "САМОСТОЯТЕЛЬНАЯ ЖИЗНЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СРЕДНИЕ ВЕКА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НАСТОЯЩЕЕ ВРЕМЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "КАКОМ-ЛИБО ОТНОШЕНИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "КАЖДОГО СТУДЕНТА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНОЕ ЗАВЕДЕНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НАУЧНЫЙ СОТРУДНИК",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "РУССКИХ ПОГОВОРОК",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ЭКСТРАОРДИНАРНЫЙ ПРОФЕССОР",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ИНЫХ СЛУЧАЯХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ДЕЙСТВИТЕЛЬНЫЙ СТУДЕНТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "НАСТОЯЩИЙ СТУДЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "МОЛОДЕЖНЫЙ ФОРУМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЗРОСЛАЯ ЖИЗНЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СОВРЕМЕННЫХ СРЕДСТВ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "СОЦИАЛЬНОЙ ЗАЩИТЫ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТА БУМАГА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДИН УЧАЩИЙСЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "КУЛЬТУРНАЯ ИДЕНТИФИКАЦИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ПЕРВОГО СЕНТЯБРЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НЕСКОЛЬКИХ ДОКУМЕНТОВ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПАПИНЫ НАСТАВЛЕНИЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОПРЕДЕЛЁННОГО УЧИТЕЛЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ОФИЦИАЛЬНЫЙ ЭТАП",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЁНЫЕ ЗВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ТОМ ЧИСЛЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ВУЗОВСКИХ ОБРЯДОВ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОРДИНАРНЫЙ ПРОФЕССОР",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "УЧЕБНЫЕ ЗАВЕДЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "ТЕХ СТУДЕНТАХ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					},
+					{
+						"title": "ШИРОКОМ СМЫСЛЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					},
+					{
+						"title": "НОВОГО ВРЕМЕНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}
+				]
+			},
+			{
+				"query": "хакатон",
+				"data": [
+					{
+						"title": "ОПЕРАЦИОННОЙ СИСТЕМЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "БЫСТРОЙ РАЗРАБОТКИ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "УСТАНОВЛЕННЫЕ США",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ОПРЕДЕЛЕННОЙ ОБЛАСТИ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ВСЕ ПРЕЗЕНТАЦИИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "СХОДНЫЕ МЕРОПРИЯТИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ЭТОТ ТЕРМИН",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "СПОНСОРСКИЕ ВЗНОСЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ГОРОДСКИЕ ПРОЕКТЫ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "АКТИВНАЯ КОМАНДА",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "РАЗЛИЧНЫХ МЕСТАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ПОНЯТНОЙ КАРТЫ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОБОДНОМ ПЛАВАНИИ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "СПОРТИВНЫЙ ЗЕЛЕНОГРАД",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "СОЦИАЛЬНЫМ ОБЪЕКТАМ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "РАСШИРЕННЫЙ ПОИСК",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "НЕАВТОРИТЕТНЫЙ ИСТОЧНИК",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ПОЖИЛЫХ ЛЮДЕЙ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ФИНАНСОВЫХ СЕРВИСОВ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "САМОГО ЯЗЫКА",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ЗЕЛЕНОГРАДСКИЙ ЦЕНТР",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "МОБИЛЬНЫХ ПЛАТФОРМ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "АППАРАТНОМУ ОБЕСПЕЧЕНИЮ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "КРУГЛЫЙ СТОЛ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "ЗЕЛЕНОГРАДСКОГО АВТОКОМБИНАТА",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "КОНКРЕТНОЙ ПЛАТФОРМОЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "МАРШРУТНОЙ СЕТИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "СОЦИАЛЬНЫХ ОБЪЕКТАХ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ДАННЫЙ МОМЕНТ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "КОМПЬЮТЕРНЫХ ИГР",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ВСЕХ ПЕРЕВОЗЧИКОВ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОГРАНИЧЕННЫМИ ВОЗМОЖНОСТЯМИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОВТОРНОЕ ГОЛОСОВАНИЕ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТИ РАБОТЫ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "МОБИЛЬНОГО ПРИЛОЖЕНИЯ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "СОЦИАЛЬНЫХ ЦЕЛЕЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ПОСЛЕДУЮЩЕЙ МАРШРУТИЗАЦИЕЙ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОПЕРАЦИОННОЙ СИСТЕМЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "СПОРТИВНЫХ ОБЪЕКТОВ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭКСПОРТНЫЕ ОГРАНИЧЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ГОРОДСКИХ ИНТЕРНЕТ-РЕСУРСАХ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЩЕСТВЕННЫЙ ТРАНСПОРТ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ИНФОРМАЦИОННЫЙ ПОИСК",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕНЧУРНЫМ ИНВЕСТОРАМ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОПЕРАЦИОННОЙ СИСТЕМОЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "ДАННОМ ЭТАПЕ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГИМИ ПОЛЬЗОВАТЕЛЯМИ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "УМНЫЙ КОМПАС",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСВЯЩЕННОЙ КРИПТОГРАФИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "СПЕЦИАЛЬНОЙ НОМИНАЦИИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНЫХ ТЕХНОЛОГИЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "МОБИЛЬНЫХ ПРИЛОЖЕНИЙ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ИЗВЕСТНЫЕ КОМПАНИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "НАШУ РАССЫЛКУ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНОМ ИНТЕРФЕЙСЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%BE%D0%BD",
+						"weight": "7"
+					},
+					{
+						"title": "МАКСИМАЛЬНЫЙ РАЗМЕР",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОГО ДНЯ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "РАЗНЫХ ОБЛАСТЕЙ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "АВТОБУСНЫХ МАРШРУТОВ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "КАКОЙ-ЛИБО ПРОБЛЕМЫ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕ МАРШРУТЫ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРЕДСТАВЛЕННЫЕ РАБОТЫ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ДАННОЙ НОМИНАЦИИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВОМ ЭТАПЕ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "РАВНЫХ ВОЗМОЖНОСТЕЙ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "ТОРЖЕСТВЕННОМ МЕРОПРИЯТИИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕХ УЧАСТНИКОВ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОТКРЫТЫХ ДАННЫХ",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "СПЕЦИАЛЬНЫЕ НОМИНАЦИИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "НИЖНИЙ НОВГОРОД",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "МОБИЛЬНОЕ ПРИЛОЖЕНИЕ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ВТОРОЙ ТУР",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ОСНОВНОЙ НОМИНАЦИИ",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОСТОЙ ПОИСК",
+						"source": "http://it-sobytie.ru/hackathon",
+						"weight": "5"
+					},
+					{
+						"title": "ОТКРЫТЫЙ ДОСТУП",
+						"source": "http://www.zelao.ru/hackathon/",
+						"weight": "5"
+					}
+				]
+			},
+			{
+				"query": "хоккей",
+				"data": [
+					{
+						"title": "РИЖСКОЕ ДИНАМО",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДИН ДЕНЬ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СУББОТНИЙ ДЕНЬ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШИМ БОМБАРДИРОМ",
+						"source": "http://www.championat.com/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "СИБИРСКОГО ДЕРБИ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СБОРНОЙ РОССИИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЕГЕНДАРНЫМ КАНАДЦЕМ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГОЙ СТОРОНЫ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СПЕЦИАЛЬНОЙ ГАЛЕРЕЕ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕВРОПЕЙСКИЙ ФУТБОЛ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНЫМ ХИТОМ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "НАЗЫВАЕМОГО ЛИМИТА",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОПУЛЯРНЫХ ИГРОКОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "РОДНОМ ЛЬДУ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОПУЛЯРНОМ КЛУБЕ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЁ ВРЕМЯ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕВРОПЕЙСКИХ ТОП-КЛУБОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "МЕСТНЫЙ САЛАВАТ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "КРУТЫХ СОБЫТИЙ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЧЕЛЯБИНСКОГО ТРАКТОРА",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭФФЕКТНЫХ ФОТО",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "АРМЕЙСКОЕ ДЕРБИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕ ВНИМАНИЕ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНЫХ ИНТРИГ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШИХ БОМБАРДИРОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ОМСКИМ АВАНГАРДОМ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "400-Ю ПЕРЕДАЧУ",
+						"source": "http://www.championat.com/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОМУ ФАКТУ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШИХ КОМАНД",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "АРМЕЙСКИЕ КОМАНДЫ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНЫЕ ИНТРИГИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСЛЕДНИХ ЛЕТ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "НЫНЕШНЕМ СЕЗОНЕ",
+						"source": "http://www.championat.com/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ВАЖНЫХ ИГРОКОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ФИНСКИХ ТРЕНЕРОВ-НЕУДАЧНИКОВ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭМОЦИОНАЛЬНУЮ СТОРОНУ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "МОСКОВСКИЕ АРМЕЙЦЫ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "МАЛОИЗВЕСТНЫЕ ИСТОРИИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ОЧЕРЕДНОЙ ГЛАВЕ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСЛЕДНИХ ДНЕЙ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОМ ВОПРОСЕ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО ЛИДЕРОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЯЗАТЕЛЬНОЙ ЗАЯВКИ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ХОККЕЙНОГО ОКТЯБРЯ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕ ПОВЕДЕНИЕ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРЕДСЕЗОННЫХ МАТЧАХ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ФИНСКИХ ТРЕНЕРОВ",
+						"source": "http://www.championat.com/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "МУЖСКОМ ЗАНЯТИИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "РЕЗУЛЬТАТИВНЫХ ЗАЩИТНИКОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГИХ МАТЧАХ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВОЙ ЧАСТИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ОМСКИЙ АВАНГАРД",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "НАШЕЙ ПОСТОЯННОЙ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "СТАРТОВАВШЕГО ЧЕМПИОНАТА",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНОМ МАТЧЕ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					},
+					{
+						"title": "ХОККЕЙНОМ СУДЕЙСТВЕ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕЛИКИХ КОМАНДАХ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШИЕ ФОТОГРАФИИ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "НОВОГО СЕЗОНА",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "СИЛЬНЕЙШИХ КЛУБОВ",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНОГО МАТЧА",
+						"source": "http://www.sports.ru/hockey/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕСЬ ДЕНЬ",
+						"source": "http://allhockey.ru/",
+						"weight": "5"
+					}
+				]
+			},
+			{
+				"query": "гейтс",
+				"data": [
+					{
+						"title": "ВАЖНУЮ РОЛЬ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НАСТОЯЩЕМУ МОМЕНТУ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОИЗВОДСТВЕННУЮ СТРАТЕГИЮ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРСОНАЛЬНЫЙ КОМПЬЮТЕР",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТИХ НУЖД",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИНУДИТЕЛЬНОМУ ДРОБЛЕНИЮ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СРЕДНЕЕ ОБРАЗОВАНИЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЗНАЧИТЕЛЬНАЯ ЧАСТЬ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕЙ ЖЕНОЙ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СРЕДНИХ КЛАССАХ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ВТОРОЙ РЕДАКЦИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВТОРОЕ МЕСТО",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИХ ОТЕЦ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ШКОЛЬНЫМ ТОВАРИЩЕМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ТАКИМ НАЗВАНИЕМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СВОИХ КНИГ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "БЛАГОТВОРИТЕЛЬНОЙ ОРГАНИЗАЦИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГОВЯЖЬИХ СУБПРОДУКТОВ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "КОМПЬЮТЕРНЫМИ ТЕХНОЛОГИЯМИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "АКАДЕМИЧЕСКИЙ ОТПУСК",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИСПОЛНИТЕЛЬСКИХ ПОЛНОМОЧИЙ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "МЕНЬШЕЙ МЕРЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "БИБЛИОТЕЧНОГО ДЕЛА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ТАКИМ ПОТЕНЦИАЛОМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СТРАТЕГИЧЕСКИХ РЕШЕНИЙ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВОГО МИНИКОМПЬЮТЕРА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "БЛАГОТВОРИТЕЛЬНЫЙ ФОНД",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КРУПНЕЙШЕГО ИСТОЧНИКА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КАЖДОМ РАБОЧЕМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НИЗКУЮ ОРБИТУ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВАЯ ВЕРСИЯ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПОДРОБНУЮ ИНФОРМАЦИЮ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ФИНАНСОВЫЙ ГОД",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "РАЗНЫХ СТРАНАХ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ДЕНЕЖНОМ ПЕРЕВОДЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБРАЗОВАТЕЛЬНОГО ПРОЦЕССА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СЕВЕРО-ЗАПАДНОГО ПОБЕРЕЖЬЯ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВАШИ ПРАВА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДИН МИЛЛИОН",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕМУ УСМОТРЕНИЮ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШИХ СОТРУДНИКОВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "МАЛЫМ ДОХОДОМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГРАНДИОЗНОГО ПРОЕКТА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НОВЫХ ПРОДУКТОВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СТОРОННИМ РАЗРАБОТЧИКАМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ФИНАНСОВОМ ГОДУ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СОВРЕМЕННЫХ ТЕХНОЛОГИЙ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕЛИКИЙ ЧЕЛОВЕК",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭКСКЛЮЗИВНОГО ЛИЦЕНЗИРОВАНИЯ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СТАРЫЕ ЗАПИСИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВУЮ ПРОГРАММУ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НАСТОЯЩИМ МИРОВЫМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИХ КОММЕНТАРИЯМИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТА КНИГА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СОБСТВЕННОЙ КОМПАНИИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО СОСТОЯНИЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИНВЕСТИЦИОННОЙ КОМПАНИИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕГО ПРЕБЫВАНИЯ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИВИЛЕГИРОВАННЫХ ЧАСТНЫХ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "МНОГОЧИСЛЕННЫХ ШТРАФОВ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЗЕМНОГО ШАРА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СОВМЕСТНЫЕ ПРОЕКТЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЧЕЛОВЕЧЕСКОЙ МЫСЛИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ФИЛАНТРОПИЧЕСКИХ ИНИЦИАТИВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО ЖИЗНЬ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИНЫМ СПОСОБОМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЕ ФОТОГРАФИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КЛЮЧЕВЫМ ФАКТОРОМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОПЕРАЦИОННОЙ СИСТЕМОЙ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОМ ЭТАЖЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО ВЫСТУПЛЕНИЙ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВОЕ МЕСТО",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЮБОЙ ИНФОРМАЦИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕ ВРЕМЯ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПУБЛИЧНЫХ БИБЛИОТЕКАХ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНЫЕ НОВОСТИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НАЦИОНАЛЬНОЙ ЭКОНОМИКИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "КАКОМ НАПРАВЛЕНИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "УЧЕБНОМ ПРОЦЕССЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СУДЕБНЫХ РАЗБИРАТЕЛЬСТВ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ТРЕТЬЕМ КУРЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОГО НОВШЕСТВА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГЛАВНЫЙ АРХИТЕКТОР",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЩИЙ ОБЪЕМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО СЕСТРЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЮБЫЕ ПРОЕКТЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ГОРОДСКОГО ТРАНСПОРТА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ТАКОЙ КАПИТАЛ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "МОЛОДЫХ ПРОГРАММИСТОВ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО ВКЛАД",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ТЕХНИЧЕСКОЙ РАЗРАБОТКЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ИНФОРМАЦИОННЫЙ КАНАЛ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТИХ СПУТНИКОВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КОНКРЕТНОМ ЧЕЛОВЕКЕ",
+						"source": "https://ru.wikipedia.org/wiki/%C3%E5%E9%F2%F1",
+						"weight": "7"
+					},
+					{
+						"title": "МЯГКОЙ ОБЛОЖКЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТО МММ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "МОТОРНЫЕ ЛОДКИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ВИЗУАЛЬНОЙ ИНФОРМАЦИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ТЕЛЕВИЗИОННАЯ СЕТЬ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕ СРЕДСТВА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ДОБРЫЙ ДЕНЬ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЫСОКУЮ ОЦЕНКУ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НЕИСПРАВИМЫЙ ТРУДОГОЛИК",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ВАЖНАЯ ВЕХА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "БОГАТЫМ ЧЕЛОВЕКОМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НАЧАЛЬНОЙ ШКОЛЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "БЛАГОТВОРИТЕЛЬНЫХ КАМПАНИЙ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "АГРЕССИВНУЮ ПОЛИТИКУ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СЕМЕЙНОЙ ТРАДИЦИИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СВОИ ВЗГЛЯДЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭЛЕКТРОННОЙ ПОЧТЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЗНАЧИТЕЛЬНЫЕ КОРРЕКТИВЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "МИРОВОМ РЕЙТИНГЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЦИФРОВОЕ ВОСПРОИЗВЕДЕНИЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "АВТОРСКИЕ ПРАВА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "РЕАЛЬНУЮ АЛЬТЕРНАТИВУ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНЫЙ КОД",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ГЕНЕРАЛЬНЫМ ДИРЕКТОРОМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ТРЕТЬЮ КОМПАНИЮ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ОПЕРАЦИОННУЮ СИСТЕМУ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "МАСШТАБНОЕ РАСПРОСТРАНЕНИЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "МЕСТНЫХ ВЛАСТЕЙ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СПЕЦИАЛЬНЫЕ ПРОЕКТЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СВЕТЛАЯ ЛИЧНОСТЬ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "БЛАГОТВОРИТЕЛЬНЫЕ ПРОЕКТЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НЕОБХОДИМУЮ ДОКУМЕНТАЦИЮ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "БРИТАНСКОЙ КОМПАНИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВТОРАЯ РЕДАКЦИЯ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "РОССИЙСКИХ ТЕЛЕСЕРИАЛОВ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЖЕДНЕВНЫЕ СТРАНИЦЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НАШЕМ ПОРТАЛЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЧАСТНЫХ КОЛЛЕКЦИЙ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "АНТИМОНОПОЛЬНОГО ВЕДОМСТВА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИСПОЛНИТЕЛЬНОГО ДИРЕКТОРА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "АППАРАТНОГО ОБЕСПЕЧЕНИЯ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЧАСТНОЙ ШКОЛЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЕ СМЕРТИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГАРВАРДСКИЙ УНИВЕРСИТЕТ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОГРАММНЫМИ СРЕДСТВАМИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СВОБОДНОЕ ВРЕМЯ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НОВЫМ ГОДОМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ИНТЕРАКТИВНЫХ СЕТЕЙ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КАЖДОМ ДОМЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЫЧИСЛИТЕЛЬНАЯ МАШИНА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ОСНОВНОЙ АКЦИОНЕР",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СОДЕРЖАЩИЕ СПИСКИ",
+						"source": "https://ru.wikipedia.org/wiki/%C3%E5%E9%F2%F1",
+						"weight": "7"
+					},
+					{
+						"title": "ДОМИНИРУЮЩИЕ ПОЗИЦИИ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "СУЩЕСТВУЮЩИХ СТАТЕЙ",
+						"source": "https://ru.wikipedia.org/wiki/%C3%E5%E9%F2%F1",
+						"weight": "7"
+					},
+					{
+						"title": "БУДУЩЕГО МАГНАТА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШАЯ ОС",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВАШ ПОРТРЕТ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "АНТИМОНОПОЛЬНЫЕ ОРГАНЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРСОНАЛЬНЫМИ КОМПЬЮТЕРАМИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕМУ МИРУ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ШИРОКОПОЛОСНЫЕ ТЕЛЕКОММУНИКАЦИИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СУВЕРЕННЫЙ РЕЙТИНГ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ШКОЛЬНОЙ УЧИТЕЛЬНИЦЕЙ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВЫЙ КУРС",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ИССЛЕДОВАТЕЛЬСКИЙ ЦЕНТР",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО ВРЕМЕНИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НОВОМ КЛЮЧЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ДОЛГОСРОЧНЫЕ ПЕРСПЕКТИВЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОЕМ ИНТЕРНЕТ-САЙТЕ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ЛУЧШИХ ФУТБОЛИСТОВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КОМПЬЮТЕРНЫЕ ПРОГРАММЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРСОНАЛЬНЫХ КОМПЬЮТЕРОВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕМ МИРЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ДОЛГОСРОЧНЫЕ ИНТЕРЕСЫ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ТЕМ ДОСТИЖЕНИЯМ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЩЕСТВЕННЫЕ ПРОЕКТЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "КОМПЬЮТЕРНЫЙ МИР",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ТИХОГО ОКЕАНА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "WINDOWS-СОВМЕСТИМЫХ ПРОГРАММ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГОЙ СТАТЬИ",
+						"source": "https://ru.wikipedia.org/wiki/%C3%E5%E9%F2%F1",
+						"weight": "7"
+					},
+					{
+						"title": "ЦИФРОВОЙ АРХИВ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЩЕЙ СЛОЖНОСТИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЕ ДРУГИМ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЕ РАБОТЫ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГАЗОВЫХ ПЕРЕГОВОРАХ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПОЛНЫЙ СПИСОК",
+						"source": "https://ru.wikipedia.org/wiki/%C3%E5%E9%F2%F1",
+						"weight": "7"
+					},
+					{
+						"title": "ХИТРЫЙ КОНТРАКТ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ТОМ ЧИСЛЕ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "НЕСКОЛЬКИХ СОТЕН",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕДУЩЕГО МИРОВОГО",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ГАРВАРДСКОГО УНИВЕРСИТЕТА",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРСОНАЛЬНОГО КОМПЬЮТЕРА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "НОВОЙ ИДЕИ",
+						"source": "http://www.peoples.ru/undertake/soft/gates/",
+						"weight": "5"
+					},
+					{
+						"title": "ИЗВЕСТНОГО ЮРИСТА",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВУЮ КОМПАНИЮ",
+						"source": "http://www.rbc.ru/persons/gates.shtml",
+						"weight": "5"
+					}
+				]
+			},
+			{
+				"query": "бетономешалка",
+				"data": [
+					{
+						"title": "ТАКАЯ КОНСТРУКЦИЯ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ИСХОДНЫЕ КОМПОНЕНТЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЖЕСТКИЕ БЕТОНЫ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "КАЖДОМ КОРПУСЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ДАННОГО САЙТА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "МИНИМАЛЬНЫМИ НАГРУЗКАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СТРОИТЕЛЬНОЙ ТЕХНИКИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "БЕТОННЫЕ СМЕСИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "БОКОВЫХ СТЕНОК",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СТАЛЬНЫЕ ШТЫРИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СОБСТВЕННОГО ВЕСА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГОЙ РЕГИОН",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИНУДИТЕЛЬНЫХ БЕТОНОМЕШАЛОК",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "БОЛЬШОМ ОБЪЕМЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОЙ СЕТИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "МЯГКОЙ РЕЗИНЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СТАРЫХ УГОЛКОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОСНОВНЫЕ ПРЕИМУЩЕСТВА",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "СВОИМИ РУКАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГРАВИТАЦИОННЫХ БЕТОНОСМЕСИТЕЛЕЙ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЛАНЕТАРНОГО МЕХАНИЗМА",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ТАКИХ ПОДВЕСОК",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОДИНАКОВЫМ НАРУЖНЫМ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЧЕРВЯЧНЫЙ РЕДУКТОР",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СРЕДНЕЙ ПОЛКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ИМЕЮЩИХСЯ МАТЕРИАЛОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТИХ НЕДОСТАТКОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГЕОМЕТРИЧЕСКИЙ ОБЪЕМ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "МИНИМАЛЬНОЙ ДОРАБОТКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЭЛЕКТРИЧЕСКАЯ БЕТОНОМЕШАЛКА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "РУЧНЫМ ПРИВОДОМ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЕГКИЕ ЛОПАСТИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕ СРОКИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЕ КОМПОНЕНТОВ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ИМЕЮЩИХСЯ ДЕТАЛЕЙ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОФИЦИАЛЬНЫМИ ДИЛЕРАМИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "КАРТОЧНЫЕ ПЕТЛИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "САДОВУЮ ТАЧКУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОСНОВНЫЕ ДОСТОИНСТВА",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ИНОЙ ТЕХНИКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОПИСАННОЙ КОНСТРУКЦИИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОФЕССИОНАЛЬНЫХ БЕТОНОМЕШАЛОК",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЫЧНАЯ БОЧКА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПРЕДЫДУЩЕГО ВАРИАНТА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВНУТРЕННИМИ ДИАМЕТРАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ДОННЫЙ ЗАТВОР",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ВНЕШНЕЙ СТОРОНЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СОКРАЩЕННАЯ ПРОДОЛЖИТЕЛЬНОСТЬ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИНУДИТЕЛЬНЫХ БЕТОНОСМЕСИТЕЛЕЙ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ТРАНСПОРТНОЙ КОМПАНИЕЙ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ЗАГРУЖЕННУЮ БОЧКУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БОКОВОЙ ПОВЕРХНОСТИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "КОНДЕНСАТОРНЫМ ВКЛЮЧЕНИЕМ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПОЛНЫЙ СПЕКТР",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "НЕОБХОДИМУЮ УСТОЙЧИВОСТЬ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ДОПОЛНИТЕЛЬНЫМИ НАКЛАДКАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОПРЕДЕЛЕННОЙ ПРОПОРЦИИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНУ СТОРОНУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВРАЩАЮЩИЕСЯ ЛОПАСТИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "РАВНОМ РАССТОЯНИИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОФАЗНЫЙ ЭЛЕКТРОДВИГАТЕЛЬ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "НЕБОЛЬШИЕ РАЗМЕРЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "САМОДЕЛЬНОЙ БЕТОНОМЕШАЛКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОТЕЧЕСТВЕННЫХ ЗАВОДОВ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "КАРАБИННЫМИ ЗАЩЕЛКАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СООТВЕТСТВУЮЩЕЕ ПРОСТРАНСТВО",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "НИЗКИМ ЦЕНАМ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ДРУГУЮ СТОРОНУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОТ САЙТ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БЫТОВЫЕ БЕТОНОМЕШАЛКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "РАБОЧАЯ СКОРОСТЬ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "МНОГОКРАТНОМУ ПОДЪЕМУ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРЕМЕШИВАЮЩЕЙСЯ МАССЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПОЛНЫХ ОБОРОТОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВНУТРЕННИМ ДИАМЕТРОМ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "АКТИВНЫЕ ССЫЛКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "САМОДЕЛЬНАЯ БЕТОНОМЕШАЛКА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПРЯМОУГОЛЬНОЕ ОТВЕРСТИЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОЙ РУКОЙ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГОРИЗОНТАЛЬНЫЕ ОПОРЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВРЕМЕННОГО СКЛАДИРОВАНИЯ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОРОДНЫЙ СОСТАВ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ОСТАЛЬНЫХ СЛУЧАЯХ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОГО УЗЛА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕ ДЕТАЛИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЦИЛИНДРИЧЕСКИМИ ШЕСТЕРНЯМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "МЯГКОЙ СТАЛИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ТОЧНОЙ ВЫГРУЗКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЕГКОГО ПОВОРОТА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЕ ДИАМЕТРА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЭЛЕКТРИЧЕСКИЕ БЕТОНОМЕШАЛКИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ПЕРВОЙ БЕТОНОМЕШАЛКЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "200-ЛИТРОВАЯ БОЧКА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СТЯГИВАЮЩИХ БОЛТОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПОИСКОВЫМИ РОБОТАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БОЛЬШОГО ЗНАЧЕНИЯ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИНУДИТЕЛЬНОГО ДЕЙСТВИЯ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ЗАКРЫТОМ СОСТОЯНИИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВРАЩАЮЩЕМСЯ БАРАБАНЕ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ДЕШЕВОЕ ПРЕДЛОЖЕНИЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГРАВИТАЦИОННОЕ ПЕРЕМЕШИВАНИЕ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ПРИВОДНОГО ВАЛА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ХОРОШУЮ СМАЗКУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕРХНЕЙ ЧАСТИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПРОФЕССИОНАЛЬНЫМ ЭЛЕКТРОИНСТРУМЕНТОМ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "САЛЬНЫХ УГОЛКОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЮБЫХ ПОДРУЧНЫХ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГОТОВОГО БЕТОНА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПОЛНАЯ РАЗГРУЗКА",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "СТРОИТЕЛЬНО-ОТДЕЛОЧНЫХ МАШИН",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "САМОМ НИЗУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОПРОКИДЫВАЮЩАЯ ЕМКОСТЬ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "КРАЙНЕМ СЛУЧАЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЭТОГО ПРОИЗВОДИТЕЛЯ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "СТЯЖНЫХ БОЛТОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВАШЕЙ СТРОЙКЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВСЕЙ РОССИИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ИСХОДНЫХ КОМПОНЕНТОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БЕТОННЫХ РАБОТ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЛЕБЕДЯНСКОГО ЗАВОДА",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕРТИКАЛЬНЫМ РОТОРОМ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ТРАНСПОРТНУЮ КОМПАНИЮ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "СТРОИТЕЛЬНЫХ МАТЕРИАЛОВ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ЛИСТОВОЙ СТАЛИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВНУТРЕННИЕ ФЛАНЦЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СЛЕДУЮЩИЙ ЭТАП",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "РАЗНЫХ ТИПОВ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "РУЧНАЯ БЕТОНОМЕШАЛКА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ТОРЦЕВЫХ КРЫШКАХ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БРОНЗОВЫМИ ВТУЛКАМИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СЕКТОРНЫМИ ЗАТВОРАМИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ЕГО ЗАЩИТУ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БАРАБАННОЙ БЕТОНОМЕШАЛКОЙ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БЕТОННЫЕ РАБОТЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГРАВИТАЦИОННОГО ТИПА",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДНОЙ СТОРОНЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГОТОВЫЙ БЕТОН",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВЕРТИКАЛЬНЫЕ СТОЙКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "МИНИМАЛЬНЫЙ ЗАЗОР",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГРАВИТАЦИОННОГО ДЕЙСТВИЯ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ШАРИКОВЫЕ ПОДШИПНИКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПОСЛЕГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ФУНДАМЕНТНЫХ РАБОТАХ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БОЛЬШИХ ОБОРОТАХ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВОДОПРОВОДНОЙ ТРУБЫ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "МЕЛКИЙ ГРАВИЙ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "КАТОРЖНЫЙ ТРУД",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "РАЗЛИЧНЫХ РАЗМЕРОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ЕЁ ОПРОКИДЫВАНИЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ГОТОВОЙ СМЕСИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ВЫСОКАЯ УНИВЕРСАЛЬНОСТЬ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ШИРОКИЙ АССОРТИМЕНТ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "БОЛЬШАЯ ЧАСТЬ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "СТАЦИОНАРНЫЕ БЕТОНОМЕШАЛКИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "СТРОИТЕЛЬНЫЕ РАСТВОРЫ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "НАША КОМПАНИЯ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ОБЫЧНОМ МАГАЗИНЕ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ДИСКОВАЯ ПИЛА",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "БОЛЬШИХ ОБЪЕМОВ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ОДИН ДЕНЬ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ТОМ ЧИСЛЕ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ОДИН КОНЕЦ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "РАЗЛИЧНОЙ ПОДВИЖНОСТИ",
+						"source": "http://www.kuvalda.ru/catalog/5089/",
+						"weight": "5"
+					},
+					{
+						"title": "ФИРМЕННОЙ БЕТОНОМЕШАЛКИ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "ПОЛНОГО ПЕРЕМЕШИВАНИЯ",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					},
+					{
+						"title": "НЕБОЛЬШОЙ ДИАМЕТР",
+						"source": "http://tool-land.ru/samodelnaya-betonomeshalka.php",
+						"weight": "5"
+					}
+				]
+			}
+		],
+		"title": "Factrix",
+		"description": "Введите в строку любую фразу и мы найдём наиболее связанные с ней сведения.",
+		"description-short": "Любое слово или фраза",
+		"l10n": {
+			"input-submit": "Узнать",
+			"for-example": "Например, "
+		}
+	}
 }
