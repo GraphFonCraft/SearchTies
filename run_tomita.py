@@ -4,7 +4,7 @@ import re
 import codecs
 import subprocess
 
-def tomita():
+def tomita():    
 	tomita_directory = (u'/srv/http/app/tomita/')
 	texts_directory = (u'/srv/http/app/texts/') 
 	facts_directory = (u'/srv/http/app/facts/') 

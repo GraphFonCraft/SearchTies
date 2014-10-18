@@ -11,17 +11,18 @@ import json
 import codecs
 
 def getTopDuck2GoUrls(queryString):
-    queryTemplate = "http://duckduckgo.com/html/?q="
-    queryUrl = queryTemplate + queryString
-    site = urllib2.urlopen(urllib2.Request(queryUrl))
-    htmlResponse = site.read()
-    parsedResponse = BeautifulSoup(htmlResponse)
+	queryTemplate = "http://duckduckgo.com/html/?q="
+	querryLocal = "&kl=ru-ru"
+	queryUrl = queryTemplate + queryString + querryLocal
+	site = urllib2.urlopen(urllib2.Request(queryUrl))
+	htmlResponse = site.read()
+	parsedResponse = BeautifulSoup(htmlResponse)
 
-    links = []
-    for i in parsedResponse.findAll('div', {'class': re.compile('links_main*')}):
-        links.append( i.a['href'] )
+	links = []
+	for i in parsedResponse.findAll('div', {'class': re.compile('links_main*')}):
+		links.append( i.a['href'] )
 
-    return links
+	return links
 
 def getArticleText(articleUrl):
     alchemyapi = AlchemyAPI()
@@ -29,6 +30,9 @@ def getArticleText(articleUrl):
 
     return response['text'].encode('utf-8')
 
+def getSoupArticleText(articleUrl):
+    return "AlternativeFastFunc"
+	
 def printToFile(links):
 	output_file = codecs.open("/srv/http/app/texts/text",'w', "utf-8")
 	for i in range(3): #3 for debug
