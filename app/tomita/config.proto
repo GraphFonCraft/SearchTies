@@ -3,12 +3,12 @@
 TTextMinerConfig {
   Dictionary = "/srv/http/app/tomita/mydic.gzt"; // путь к корневому словарю
     
-  Input = {File = "/srv/http/app/texts/text"; // путь к входному файлу
+  Input = {File = "/srv/http/app/texts/1"; // путь к входному файлу
   }
 
   Articles = [{Name = "словосочетания"}]
  
-  Output = {File = "/srv/http/app/facts/text";
+  Output = {File = "/srv/http/app/facts/1";
     Format = xml;        // можно использовать следующие форматы:
                           // proto (Google Protobuf), xml, text
   }

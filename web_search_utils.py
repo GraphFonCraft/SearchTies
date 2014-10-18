@@ -30,16 +30,20 @@ def getArticleText(articleUrl):
 
     return response['text'].encode('utf-8')
 
-def getSoupArticleText(articleUrl):
-    return "AlternativeFastFunc"
 	
 def printToFile(links):
-	output_file = codecs.open("/srv/http/app/texts/text",'w', "utf-8")
+	facts_urls = {}
 	for i in range(3): #3 for debug
 		a_text = getArticleText(links[i])
+		
+		text_patch = "/srv/http/app/texts/" + `i` 
+		output_file = codecs.open(text_patch, 'w', "utf-8")
 		output_file.write(a_text)
-	
-	output_file.close()
+				
+		facts_urls[i] = links[i]
+		output_file.close()
+			
+	return facts_urls
 			
 #relatedUrls = getTopDuck2GoUrls("Печенька")
 #randomIndex = random.randint(0, len(relatedUrls) - 1)
