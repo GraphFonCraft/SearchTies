@@ -15,7 +15,7 @@ block content
 				p.site-description.medium-5.large-4.small-centered.columns=site_description
 	footer.site-footer.row
 		.small-12.columns.text-right
-			if test_debug
+			if get_data_test
 				include:md data/footer.md
 			else
 				{{footer}}
