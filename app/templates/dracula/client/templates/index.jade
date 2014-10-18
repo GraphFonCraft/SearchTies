@@ -15,15 +15,16 @@ block content
 							button.js-search-submit.postfix(disabled=search_accessibility type='button')=get_data(data.l10n['input-submit'], '{{l10n.input-submit}}')
 				p.site-description.medium-5.large-5.small-centered.columns=site_description
 				p
-					=data.l10n['for-example']
+				=get_data(data.l10n['for-example'], '{{l10n.forExample}}')
 					-var limit=3
 					-for(var i=0; i<limit; ++i)
-						a(href=default_url data-id=i).js-search-suggestion=data.testdata[i].query
+						-var query=data.testdata[i].query
+						a(href=default_url data-query=get_data(i, query)).js-search-suggestion=query
 						//-span=testdata.length
-						if i<limit-2
+						if i < limit - 2
 							=', '
-						if i==limit-2
-							=' или '
+						if i == limit - 2
+							=get_data(data.l10n.or, '{{l10n.or}}')
 		.js-results-spawn.results-wrapper
 	footer.site-footer.row
 		.small-12.columns.text-right
@@ -33,18 +34,18 @@ block content
 				| {{footer}}
 append scripts
 	script.
-		var spawnpoint=$('.js-results-spawn');
+		var spawnpoint = $('.js-results-spawn');
 	if get_data_test
 		script.
-			search_spawn=function(key){
-				spawnpoint.jQCloud(eval('testdata'+key));
+			search_spawn = function (key) {
+				spawnpoint.jQCloud(eval('testdata' + key));
 			};
 		-for(var i=0; i<3; ++i)
 			-var dataitem=data.testdata[i]
 			-var array_id='testdata'+i
 			script.
-				var #{array_id}_query='#{dataitem.query}';
-				var #{array_id}=[];
+				var #{array_id}_query = '#{dataitem.query}';
+				var #{array_id}= [];
 			each item in dataitem.data
 				script.
 					#{array_id}.push({
@@ -54,6 +55,670 @@ append scripts
 					});
 	else
 		script.
-			search_spawn=function(array){
-				spawnpoint.jQCloud(array);
+			search_spawn = function (query) {
+				var address_canonical = 'http://82.146.42.87:5000/';
+				//var address_canonical = 'http://google.com/';
+				var address;
+				if (document.URL !== address_canonical) {
+					address = address_canonical;
+				}
+				else {
+					address = document.URL;
+				}
+				var server_query_prefix = address + 'search';
+				var query1 = [
+					{
+						"text": "РОССИЙСКОЙ ФЕДЕРАЦИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СТУДЕНЧЕСКОЕ ОБЩЕЖИТИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ГОСУДАРСТВЕННОМ УНИВЕРСИТЕТЕ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЭТОТ ТЕРМИН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СТУДЕНЧЕСКИЕ ПЕРЕЕЗДЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "УЧЕБНОГО ЗАВЕДЕНИЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "СОЦИОЛОГИЧЕСКОГО ИССЛЕДОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ИНОСТРАННЫХ СЛОВ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {"text": "ДРУГОЙ РЕСУРС", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "УЧЕБНОМ ЗАВЕДЕНИИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {"text": "НОВЫХ ВСТРЕЧ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ВСЕ ПЕРВОКУРСНИКИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ВСЕХ СТРАН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ТЕ ВРЕМЕНА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "РУССКИЙ ЯЗЫК",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {"text": "ВЫСОКИМИ БАЛЛАМИ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ВСЕМ ЛЮДЯМ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "ЭТОЙ СВОБОДОЙ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "БЫВАЛОГО ЧЕЛОВЕКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "УЧЕБНЫХ ЗАВЕДЕНИЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДИПЛОМНУЮ РАБОТУ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "РАЗВЛЕКАТЕЛЬНЫЙ БЛОК",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СТАРШИХ КУРСАХ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СТУДЕНЧЕСКОЙ ЖИЗНИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {"text": "ИНТЕРЕСНАЯ ЖИЗНЬ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "РУССКОЙ РЕЧИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "РАННИЙ ПЕРИОД",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПЕРВЫХ УНИВЕРСИТЕТОВ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "КАНЦЕЛЯРСКИЕ ПРИНАДЛЕЖНОСТИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "МЕЖДУНАРОДНЫЕ СТУДЕНТЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ЭТО НАЗВАНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "БОЛЬШЕЕ РАСПРОСТРАНЕНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПОСИЛЬНОЕ САМОПОЗНАНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "НАЗЫВАЕМЫЙ ОБРЯД", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ОСНОВНАЯ ЦЕЛЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ТРУДОВОЙ КОЛЛЕКТИВ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ОЧНОГО ОТДЕЛЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДРУГИЕ ЗНАЧЕНИЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ИНОГОРОДНИЕ СТУДЕНТЫ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СВОЕГО СТУДЕНЧЕСТВА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЗАЧЕТНАЯ КНИЖКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "МЕЖДУНАРОДНЫЙ ДЕНЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "СЖАТОГО КУРСА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "КАЖДЫЙ АБИТУРИЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "НАСТОЯЩИЙ МОМЕНТ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "РОДИТЕЛЬСКИЙ ДОМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ЖИЛИЩНОЙ ПРОБЛЕМЫ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ФЕДЕРАЛЬНОГО ЗАКОНА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ЭТУ КЛЯТВУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ПРОФЕССИОНАЛЬНОМ ОБРАЗОВАНИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ОГРАНИЧЕННЫМИ ЗНАНИЯМИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДЕЛОВУЮ ПРОГРАММУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ЕДИНЫЙ ДОКУМЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СТУДЕНЧЕСКОЙ СРЕДЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "АКТИВНЫМ УЧАСТНИКАМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СТРОИТЕЛЬНЫЙ ОТРЯД",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "БОЛОНСКАЯ СИСТЕМА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ТОЛКОВЫЙ СЛОВАРЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ПРОХЛАДНОЙ ЖИЗНИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ОДНОЙ СТРАНЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "УЧЕБНЫХ ЗАВЕДЕНИЯХ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "КАНЦЕЛЯРСКИХ ПРИНАДЛЕЖНОСТЕЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "НЕСКОЛЬКИХ ВУЗАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "ДЕТСКИЙ ВОСТОРГ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "СВОИХ ВУЗАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "БОЛЬШОЙ СЛОВАРЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "СИЕ УТВЕРЖДЕНИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "НАСТОЯЩЕГО ВРЕМЕНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДРУГИХ ОКРУГОВ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ОБЩЕСТВЕННОЙ ЖИЗНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СВОЕЙ СЕМЬИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПРОСТРАНСТВЕННАЯ МОБИЛЬНОСТЬ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДРУГИХ ЯЗЫКАХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПОЛОЖИТЕЛЬНУЮ ОЦЕНКУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СВОЕГО ОКРУГА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ВЫСШЕГО ОБРАЗОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "УДОБНОЙ НАВИГАЦИИ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ЭТОТ ВОПРОС",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "КЛЮЧЕВЫМ ДОКУМЕНТОМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "РОССИЙСКОМ ПРАВЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "НЕОТЪЕМЛЕМОЙ СОСТАВЛЯЮЩЕЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СЕМЕЙНЫЙ СТУДЕНТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "РУССКОГО ЯЗЫКА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "НАЗЫВАЕМОМУ ШВЕЙЦАРУ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ДРУГИХ СТРАН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СТУДЕНЧЕСКИЙ ПОРТАЛ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ЭТОМ ОТНОШЕНИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "КРУПНЕЙШАЯ ЯРМАРКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СВОДНАЯ ЭНЦИКЛОПЕДИЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЗАСЛУЖЕННЫЙ ПРОФЕССОР",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "БЫВАЛЫХ ЛЮДЕЙ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "КУРСОВЫЕ РАБОТЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "ВСЕ ЗАПИСИ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ВЕСЕЛЫХ ГУЛЯНИЙ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ИНЫЕ ПРАВИЛА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ВЕЧЕРНЕГО ОБУЧЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "НОЧНЫХ БДЕНИЙ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ИХ КОРНЕЙ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЕЁ ПЕРЕМЕЩЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "ВСЕ СТУДЕНТЫ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ЭЛЕКТРОННАЯ КНИГА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЛЮБЫЕ ЛИЦА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ЛИЧНЫЕ СВЯЗИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "САМОГО НАЧАЛА", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ИДЕАЛЬНЫЙ СТУДЕНТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {"text": "ОПЫТНЫХ ЛЮДЕЙ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "НАШЕГО ВНИМАНИЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {"text": "НАДЛЕЖАЩЕГО ПОКОЯ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ЕЕ ПОЛУЧЕНИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ОБЯЗАТЕЛЬНЫМ РИТУАЛОМ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ЗАУМНОЕ ЗВАНИЕ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ОБЩЕСТВЕННО-ПОЛИТИЧЕСКОЙ ЖИЗНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СОЦИАЛЬНОЙ СТИПЕНДИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "УЧЕНАЯ СТЕПЕНЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ВЫСШЕЙ ШКОЛЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "УЧЁНЫХ ЗВАНИЙ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ЗАЧЕТНУЮ КНИЖКУ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ЭТИМОЛОГИЧЕСКИЙ СЛОВАРЬ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "НЕОФИЦИАЛЬНОЙ ЧАСТИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ФЕДЕРАЛЬНЫЙ ЗАКОН",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СТУДЕНЧЕСКАЯ ПОДВИЖНОСТЬ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "НЕКОТОРЫХ СТРАНАХ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "МОСКОВСКИЕ СТУДЕНТЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПРОФЕССИОНАЛЬНЫЙ РОСТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "МОЙ УНИВЕРСИТЕТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "РОССИЙСКАЯ ИМПЕРИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ЛЮБОЙ СТУДЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СТУДЕНЧЕСКОЙ БРАТИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СПЕЦИАЛЬНОГО ОБРАЗОВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДЛИННЫМ ЖЕЗЛОМ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЭТОГО ТЕРМИНА",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ПОСТОЯННОГО ПРОЖИВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СТУДЕНЧЕСКИЕ ПЕСНИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СООТВЕТСТВУЮЩЕЙ СТУПЕНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "СТУДЕНЧЕСКИЕ ШАЛОСТИ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "НЕУСТРОЕННЫЙ БЫТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "САНИТАРНОГО ПОРЯДКА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "УЧЕБНОГО ЗАВЕДЕНЬЯ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ВЕСЕЛУЮ ВЕРСИЮ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ПОЛЕЗНОЙ ИНФОРМАЦИИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ВКУСНЫЕ ПИРОЖКИ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДРЕВНЕМ РИМЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "НОВОИСПЕЧЕННЫХ СТУДЕНТОВ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ПОСЛЕДНИЙ ЗВОНОК",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "КОМАНДНО-АДМИНИСТРАТИВНЫМИ ПРИЁМАМИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "САМОСТОЯТЕЛЬНАЯ ЖИЗНЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СРЕДНИЕ ВЕКА",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "НАСТОЯЩЕЕ ВРЕМЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "КАКОМ-ЛИБО ОТНОШЕНИИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "КАЖДОГО СТУДЕНТА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "УЧЕБНОЕ ЗАВЕДЕНИЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "НАУЧНЫЙ СОТРУДНИК",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "РУССКИХ ПОГОВОРОК",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ЭКСТРАОРДИНАРНЫЙ ПРОФЕССОР",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ИНЫХ СЛУЧАЯХ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ДЕЙСТВИТЕЛЬНЫЙ СТУДЕНТ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "НАСТОЯЩИЙ СТУДЕНТ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {"text": "МОЛОДЕЖНЫЙ ФОРУМ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ВЗРОСЛАЯ ЖИЗНЬ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "СОВРЕМЕННЫХ СРЕДСТВ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "СОЦИАЛЬНОЙ ЗАЩИТЫ", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "ЭТА БУМАГА",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ОДИН УЧАЩИЙСЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "КУЛЬТУРНАЯ ИДЕНТИФИКАЦИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ПЕРВОГО СЕНТЯБРЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "НЕСКОЛЬКИХ ДОКУМЕНТОВ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ПАПИНЫ НАСТАВЛЕНИЯ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ОПРЕДЕЛЁННОГО УЧИТЕЛЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {"text": "ОФИЦИАЛЬНЫЙ ЭТАП", "source": "http://mistudenti.ru/", "weight": "5"}, {
+						"text": "УЧЁНЫЕ ЗВАНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ТОМ ЧИСЛЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ВУЗОВСКИХ ОБРЯДОВ",
+						"source": "http://mistudenti.ru/",
+						"weight": "5"
+					}, {
+						"text": "ОРДИНАРНЫЙ ПРОФЕССОР",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "УЧЕБНЫЕ ЗАВЕДЕНИЯ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "ТЕХ СТУДЕНТАХ",
+						"source": "http://dic.academic.ru/dic.nsf/dic_fwords/34507/%D0%A1%D0%A2%D0%A3%D0%94%D0%95%D0%9D%D0%A2",
+						"weight": "5"
+					}, {
+						"text": "ШИРОКОМ СМЫСЛЕ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}, {
+						"text": "НОВОГО ВРЕМЕНИ",
+						"source": "https://ru.wikipedia.org/wiki/%D1%F2%F3%E4%E5%ED%F2",
+						"weight": "7"
+					}
+				];
+				/*
+				//cross-origin policy, bitch!
+				$.get(server_query_prefix, {q: query}, function (data) {
+				console.log('success: ' + data);
+				var query_data = data
+				});
+				*/
+				spawnpoint.jQCloud(query1);
 			};

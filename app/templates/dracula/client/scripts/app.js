@@ -12,6 +12,6 @@ $(document).ready(function(){
 	});
 	$('.js-search-suggestion').on('click', function(){
 		$('.search-wrapper-target').find('input').val($(this).html());
-		search_submit($(this).data('id'));
+		search_submit($(this).data('query'));
 	});
 });
