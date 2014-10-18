@@ -17,8 +17,6 @@ html.no-js(lang='ru')
 		link(href='//www.google-analytics.com', rel='dns-prefetch')
 
 		link(rel='stylesheet', href='/styles/main.css')
-
-		script(src='/bower_components/modernizr/modernizr.js')
 	body
 		block content
 
@@ -31,6 +29,7 @@ html.no-js(lang='ru')
 			ga('create','UA-55845464-1');ga('send','pageview');
 
 		// build:js(client) scripts/global.js
+		script(src='/bower_components/modernizr/modernizr.js')
 		script(src='/bower_components/jquery/dist/jquery.js')
 		script(src='/bower_components/foundation/js/vendor/fastclick.js')
 		script(src='/bower_components/foundation/js/foundation/foundation.js')
