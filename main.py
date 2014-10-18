@@ -19,15 +19,14 @@ def hello_world():
 	
 @app.route('/search', methods=['POST', 'GET'])
 def search():	
-	arg = request.args['q']
+	query = (request.args['q']).encode('utf-8')
 
-	relatedUrls = web_search_utils.getTopDuck2GoUrls(arg.encode('utf-8'))	
-	a_text =  web_search_utils.getArticleText(relatedUrls[0])
-	
-	web_search_utils.printToFile(relatedUrls)
+	relatedUrls = web_search_utils.getTopDuck2GoUrls(query)	
+	facts_urls = web_search_utils.printToFile(relatedUrls)
+
 	run_tomita.tomita()
-	
-	return post_facts_parser.parser('/srv/http/app/facts/text')
+	result_json = post_facts_parser.parser('/srv/http/app/facts/', query, facts_urls)
+	return result_json
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
