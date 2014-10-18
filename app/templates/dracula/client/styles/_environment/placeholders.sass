@@ -8,7 +8,7 @@
 	height: 100%
 	@extend %full-height
 %layer-absolute
-	z-index: 1 !important
+	z-index: $layer-absolute-base !important
 %layer-normal
 	position: relative
-	z-index: 2
+	z-index: $layer-absolute-over

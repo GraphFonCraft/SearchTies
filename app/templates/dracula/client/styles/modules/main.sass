@@ -14,12 +14,20 @@ p
 		position: fixed
 		bottom: 0
 		right: 0
+		z-index: $layer-dynamic-over
+		background:
+			color: rgba($body-bg, 0.98)
+		padding: 1/$phi+em
+		p
+			&:last-child
+				margin:
+					bottom: 0
 		&,*
 			color: darken($body-font-color, 10%)
 			font:
 				size: small
 	&-title
-		z-index: 10
+		z-index: $layer-dynamic-over
 		font:
 			size: 4em
 			family: $font-title
