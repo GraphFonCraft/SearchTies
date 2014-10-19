@@ -48,6 +48,11 @@ append scripts
 			search_spawn = function (key) {
 				spawnpoint.jQCloud(eval('testdata' + key), jQCloud_settings);
 			};
+			var jQCloud_handler = function (el) {
+				el = $(this);
+				search_submit_helper(el);
+				search_submit(el.html());
+			};
 		-for(var i=0; i<3; ++i)
 			-var dataitem=data.testdata[i]
 			-var array_id='testdata'+i
@@ -59,15 +64,7 @@ append scripts
 					#{array_id}.push({
 						text: '#{item.title}',
 						weight: '#{item.weight}',
-						source: '#{item.source}',
-						handlers: {
-							click: function () {
-								el = $(this);
-								search_submit_helper(el);
-								search_submit(el.html());
-								console.log('i am a love');
-							}
-						}
+						source: '#{item.source}'
 					});
 	else
 		script.
