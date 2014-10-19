@@ -1,0 +1,8 @@
+#encoding "utf-8" 
+
+import "kwtypes.proto";
+
+bad_output "верстка"
+{
+	key = "главная страница"
+}

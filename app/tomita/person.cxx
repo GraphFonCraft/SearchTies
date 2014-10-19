@@ -1,5 +1,5 @@
 ﻿#encoding "utf-8" 
 
-Person -> 	Word<gram="имя"> (Word<gram="отч">) (Word<gram="фам">) | 
-			Word<gram="фам"> (Word<gram="имя">) (Word<gram="отч">);
+Person -> 	Word<gram="имя",gnc-agr[1]> (Word<gram="отч",gnc-agr[1]>) (Word<gram="фам",gnc-agr[1]>) | 
+			Word<gram="фам",gnc-agr[1]> (Word<gram="имя",gnc-agr[1]>) (Word<gram="отч",gnc-agr[1]>);
 Root -> Person interp (Definition.Noun);

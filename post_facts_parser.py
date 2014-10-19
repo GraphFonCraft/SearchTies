@@ -10,7 +10,7 @@ def parser(xml_file_dir, query, facts_urls):
 		itemlist2 = xmldoc.getElementsByTagName('Noun')
 			
 		for i in range(len(itemlist1)):
-			str = (itemlist1[i].attributes['val'].value).encode('utf-8') + " " + (itemlist2[i].attributes['val'].value).encode('utf-8')
+			str = (itemlist2[i].attributes['val'].value).encode('utf-8')
 			list[str] = file_index
 	
 	#weight mod by domain
@@ -23,6 +23,8 @@ def parser(xml_file_dir, query, facts_urls):
 			weight[file_index] = 3
 		if (facts_urls[file_index]).find("absurdopedia.net")!= -1:
 			weight[file_index] = 3
+		if (facts_urls[file_index]).find("yotube")!= -1:
+			weight[file_index] = 2
 			
 	#json output
 	need_output = '{"query" : "'+ query +'", "data" : ['
