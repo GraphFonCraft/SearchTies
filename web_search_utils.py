@@ -67,7 +67,16 @@ def getSafeJustText(articleUrl):
 		#print(articleUrl)
 		text = urllib2.urlopen(articleUrl, timeout=1).read()
 		charset = get_charset(text)
-		text = text.decode(charset)
+		#text = ""
+		if not (charset is None):
+			if re.match("^[\w\-]+$", charset):
+				text = text.decode(charset)
+			else:
+				text = ""
+		else:
+			text = ""
+		#	prog.match(string)
+		
 		#print(articleUrl)
 	except socket.timeout, e:
 		text = ""
