@@ -4,7 +4,20 @@ $(document).ready(function(){
 	search_submit=function(key){
 		spawnpoint.children().remove();
 		spawnpoint.jQCloud('destroy');
-		search_spawn(key);
+		spawnpoint.append('<div class="spin" data-spin />');
+		var spin=spawnpoint.find('.spin');
+		spin.spin({
+			width: 10,
+			length: 20,
+			radius: 50,
+			trail: 30,
+			color: 'lightgray',
+			hwaccel: true
+		});
+		setTimeout(function(){
+			spin.remove();
+			search_spawn(key);
+		}, 3000);
 		$('body').addClass(class_results_shown);
 	};
 	$('.js-search-submit').on('click', function(){
