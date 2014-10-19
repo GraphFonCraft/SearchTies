@@ -34,13 +34,14 @@ block content
 				| {{footer}}
 append scripts
 	script.
+		var search_input=$('.search-wrapper-target').find('input');
 		var spawnpoint = $('.js-results-spawn');
 		var jQCloud_settings = {
 			classPattern: 'w{n} results-item js-results-item',
 			autoResize: true
 		};
 		var search_submit_helper = function (el) {
-			$('.search-wrapper-target').find('input').val(el.html());
+			search_input.val(el.html());
 		};
 	if get_data_test
 		script.
@@ -53,22 +54,21 @@ append scripts
 			script.
 				var #{array_id}_query = '#{dataitem.query}';
 				var #{array_id}= [];
-		each item in dataitem.data
-			script.
-				#{array_id}.push({
-					text: '#{item.title}',
-				weight: '#{item.weight}',
-				source: '#{item.source}',
-				handlers: {
-					click: function () {
-						el = $(this);
-						search_submit_helper(el);
-						search_submit(el.html());
-						console.log('i am a love');
-					}
-				}
-				})
-				;
+			each item in dataitem.data
+				script.
+					#{array_id}.push({
+						text: '#{item.title}',
+						weight: '#{item.weight}',
+						source: '#{item.source}',
+						handlers: {
+							click: function () {
+								el = $(this);
+								search_submit_helper(el);
+								search_submit(el.html());
+								console.log('i am a love');
+							}
+						}
+					});
 	else
 		script.
 			search_spawn = function (query) {
@@ -81,14 +81,13 @@ append scripts
 				else {
 					address = document.URL;
 				}
+
+				var server_query_prefix = address + 'search?q=';
+
+				$.get(decodeURI(server_query_prefix + query),
+					function (data) {
+						var query_data = JSON.parse(data).data;
+						console.log(query_data);
+						spawnpoint.jQCloud(query_data);
 					}
-				];
-				/*
-				//cross-origin policy, bitch!
-				$.get(server_query_prefix, {q: query}, function (data) {
-				console.log('success: ' + data);
-				var query_data = data
-				});
-				*/
-				spawnpoint.jQCloud(query1, jQCloud_settings);
-			};
+				);

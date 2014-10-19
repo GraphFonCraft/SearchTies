@@ -4,24 +4,12 @@ $(document).ready(function(){
 	search_submit=function(key){
 		spawnpoint.children().remove();
 		spawnpoint.jQCloud('destroy');
-		spawnpoint.append('<div class="spin" data-spin />');
-		var spin=spawnpoint.find('.spin');
-		spin.spin({
-			width: 10,
-			length: 20,
-			radius: 50,
-			trail: 30,
-			color: 'lightgray',
-			hwaccel: true
-		});
-		setTimeout(function(){
-			spin.remove();
-			search_spawn(key);
-		}, 1000);
+		search_spawn(key);
 		$('body').addClass(class_results_shown);
 	};
 	$('.js-search-submit').on('click', function(){
-		search_submit(0);
+		var query=search_input.val();
+		search_submit(query);
 	});
 	$('.js-search-suggestion').on('click', function(){
 		el=$(this);
@@ -33,5 +21,9 @@ $(document).ready(function(){
 		search_submit_helper(el);
 		search_submit(el.html());
 		console.log('i am a love');
+	});
+	$('.search-field').submit(function( event ) {
+		event.preventDefault();
+		search_submit(search_input.val());
 	});
 });
