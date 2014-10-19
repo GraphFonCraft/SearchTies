@@ -32,7 +32,8 @@ def parser(xml_file_dir, query, facts_urls):
 	i = 0
 	for item in list:
 		i+=1
-		need_output += '{ "text" : "'+item+'", "source" : "'+ facts_urls[list[item]] +'", "weight" : "'+ `weight[list[item]] + random.randint(-2, 2)` +'" }'#, "handlers": { "click": "jQCloudHandler($(this))"}}'
+		need_output += '{ "text" : "'+item+'", "source" : "'+ facts_urls[list[item]] +'", "weight" : "'+ `weight[list[item]] + random.randint(-2, 2)` +'"}'
+		
 		if i != len(list):
 			need_output += ', '	
 

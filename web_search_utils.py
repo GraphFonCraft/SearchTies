@@ -20,7 +20,8 @@ def filterUrls(urls):
 		"youtube.com",
 		"vk.com",
 		"mistudenti.ru",
-		"2ch"
+		"2ch", 
+		"dic.academic.ru"
 	]
 
 	badAssUrlIndex = []
@@ -63,12 +64,11 @@ def getTopDuck2GoUrls(queryString):
 
 def getSafeJustText(articleUrl):
 	try:
+		#print(articleUrl)
 		text = urllib2.urlopen(articleUrl, timeout=1).read()
 		charset = get_charset(text)
-		print (charset)
-		#if charset!="": for Danila
 		text = text.decode(charset)
-		#text = ""
+		#print(articleUrl)
 	except socket.timeout, e:
 		text = ""
 		pass
