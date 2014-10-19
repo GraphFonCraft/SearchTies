@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
+  </head>
+  <body>
+    <main class="site-container row">
+      <h1 class="site-title text-center">{{title}}</h1>
+      <div class="search-wrapper citu-wrapper">
+        <div class="search-wrapper-target citu-target row">
+          <form class="search-field medium-5 small-centered columns">
+            <div class="row collapse">
+              <div class="small-8 columns">
+                <input type="search" placeholder="{{descriptionshort}}" autofocus>
+              </div>
+              <div class="small-4 columns">
+                <button type="button" class="js-search-submit postfix">{{buttonText}}</button>
+              </div>
+            </div>
+          </form>
+          <p class="site-description medium-5 large-5 small-centered columns">{{description}}</p>
+          <p>{{forExample}}<a href="javascript:void(0)" data-query="кампус-двфу" class="js-search-suggestion">кампус-двфу</a>, <a href="javascript:void(0)" data-query="студент" class="js-search-suggestion">студент</a> или <a href="javascript:void(0)" data-query="хакатон" class="js-search-suggestion">хакатон</a></p>
+        </div>
+      </div>
+      <div class="js-results-spawn results-wrapper"></div>
+    </main>
+    <footer class="site-footer row">
+      <div class="small-12 columns text-right"><p>Создано в рамках <a href="http://vk.com/vladivostokhackathon">VL Hackathon II</a></p>
+      </div>
+    </footer>
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-55845464-1');ga('send','pageview');
+
+    </script>
+    <script src="{{ url_for('static', filename='scripts/global.js') }}"></script>
+    <script>
+      var search_input=$('.search-wrapper-target').find('input');
+      var spawnpoint = $('.js-results-spawn');
+      var jQCloud_settings = {
+       classPattern: 'w{n} results-item js-results-item',
+       autoResize: true
+      };
+      var search_submit_helper = function (el) {
+       search_input.val(el.html());
+      };
+    </script>
+    <script>
+		var cookie=0;
+		  $('body').append('<span class="cookie">0</span>');
+		  cookie_el=$('body').find(".cookie");
+		  cookie_el.css({
+			  position: 'fixed',
+			  'font-family': 'monospace',
+			  top: 0,
+			  left: 0,
+			  background: 'lightgray',
+			  padding: '0.618em',
+			  margin: '0.618em'
+		  });
+		  cookie_add=function(){
+			  val=cookie_el.html();
+			  val++;
+			  cookie_el.html(val++);
+		  };
+      search_spawn = function (query) {
+       var address_canonical = 'http://82.146.42.87:5000/';
+       //var address_canonical = 'http://google.com/';
+       var address;
+       if (document.URL !== address_canonical) {
+        address = address_canonical;
+       }
+       else {
+        address = document.URL;
+       }
+		spawnpoint.append('<div class="spin" data-spin />');
+		var spin=spawnpoint.find('.spin');
+		spin.spin({
+			width: 10,
+			length: 20,
+			radius: 50,
+			trail: 30,
+			color: 'lightgray',
+			hwaccel: true
+		});
+		console.log('request sent, waiting for a response…');
+
+       var server_query_prefix = address + 'search?q=';
+       $.get(decodeURI(server_query_prefix + query),
+        function (data) {
+			cookie_add();
+			var query_data = JSON.parse(data).data;
+			console.log(query_data);
+			for (var i=0; i<query_data.length; ++i){
+				query_data[i]['handlers']={
+					click: function (e) {
+						el = $(this);
+						search_submit_helper(el);
+						search_submit(el.html());
+					}
+				};
+			}
+			spawnpoint.jQCloud(query_data, jQCloud_settings);
+        }
+       ).done(function() {
+			spawnpoint.find('.spin').remove();
+		   });
+
+       //console.log(query_data);
+       //spawnpoint.jQCloud(query_data);
+      };
+    </script>
+    <script src="{{ url_for('static', filename='scripts/app.js') }}"></script>
+  </body>
+</html>

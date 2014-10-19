@@ -1,0 +1,2 @@
+$(document).on("ready",function(){}),$(document).ready(function(){$('a[href^="http"]').attr("target","_blank");var a="results-arrived";search_submit=function(b){spawnpoint.children().remove(),spawnpoint.jQCloud("destroy"),search_spawn(b),$("body").addClass(a)},$(".js-search-submit").on("click",function(){search_submit(0)}),$(".js-search-suggestion").on("click",function(){$(".search-wrapper-target").find("input").val($(this).html()),search_submit($(this).data("query"))})});
+//# sourceMappingURL=app.js.map
