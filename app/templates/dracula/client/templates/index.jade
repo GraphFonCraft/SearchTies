@@ -35,10 +35,17 @@ block content
 append scripts
 	script.
 		var spawnpoint = $('.js-results-spawn');
+		var jQCloud_settings={
+			classPattern: 'w{n} results-item js-results-item',
+			autoResize: true
+		};
+		var search_submit_helper=function(el){
+			$('.search-wrapper-target').find('input').val(el.html());
+		};
 	if get_data_test
 		script.
 			search_spawn = function (key) {
-				spawnpoint.jQCloud(eval('testdata' + key));
+				spawnpoint.jQCloud(eval('testdata' + key), jQCloud_settings);
 			};
 		-for(var i=0; i<3; ++i)
 			-var dataitem=data.testdata[i]
@@ -51,7 +58,15 @@ append scripts
 					#{array_id}.push({
 						text: '#{item.title}',
 						weight: '#{item.weight}',
-						source: '#{item.source}'
+						source: '#{item.source}',
+						handlers: {
+							click: function(){
+								el=$(this);
+								search_submit_helper(el);
+								search_submit(el.html());
+								console.log('i am a love');
+							}
+						}
 					});
 	else
 		script.
@@ -720,5 +735,5 @@ append scripts
 				var query_data = data
 				});
 				*/
-				spawnpoint.jQCloud(query1);
+				spawnpoint.jQCloud(query1, jQCloud_settings);
 			};

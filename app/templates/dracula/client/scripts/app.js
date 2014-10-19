@@ -17,14 +17,21 @@ $(document).ready(function(){
 		setTimeout(function(){
 			spin.remove();
 			search_spawn(key);
-		}, 3000);
+		}, 1000);
 		$('body').addClass(class_results_shown);
 	};
 	$('.js-search-submit').on('click', function(){
 		search_submit(0);
 	});
 	$('.js-search-suggestion').on('click', function(){
-		$('.search-wrapper-target').find('input').val($(this).html());
-		search_submit($(this).data('query'));
+		el=$(this);
+		search_submit_helper(el);
+		search_submit(el.data('query'));
+	});
+	$('.js-results-item').on('click', function(){
+		el=$(this);
+		search_submit_helper(el);
+		search_submit(el.html());
+		console.log('i am a love');
 	});
 });
