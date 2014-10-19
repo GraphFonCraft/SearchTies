@@ -5,8 +5,10 @@ TTextMinerConfig {
     
   Input = {File = "/srv/http/app/texts/1"; // путь к входному файлу
   }
-
-  Articles = [{Name = "словосочетания"}]
+  
+  Articles = [
+	{Name = "словосочетания"}
+  ]
  
   Output = {File = "/srv/http/app/facts/1";
     Format = xml;        // можно использовать следующие форматы:

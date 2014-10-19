@@ -1,13 +1,15 @@
 ﻿# coding=utf-8
 from flask import Flask
 from flask import request
+from flask import render_template
+
 app = Flask(__name__)
 
 import codecs
 import run_tomita
 import web_search_utils
 import post_facts_parser
-
+	
 import sys
 
 reload(sys)
@@ -15,11 +17,18 @@ sys.setdefaultencoding('utf-8')
 
 @app.route('/')
 def hello_world():
-    return 'Hello World! :3'
+   return render_template("index.html",
+		title = 'Factrix',
+		description = 'Введите в строку любую фразу и мы найдём наиболее связанные с ней сведения.',
+		descriptionshort = 'Любое слово или фраза',
+		inputsubmit = 'Узнать',
+		buttonText = 'Узнать',
+		forExample = 'Например, '
+		)
 	
 @app.route('/search', methods=['POST', 'GET'])
 def search():	
-	query = (request.args['q']).encode('utf-8')
+	query = (request.args['q'])
 
 	relatedUrls = web_search_utils.getTopDuck2GoUrls(query)	
 	facts_urls = web_search_utils.printToFile(relatedUrls)

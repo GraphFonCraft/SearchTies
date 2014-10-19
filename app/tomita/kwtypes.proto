@@ -1,0 +1,5 @@
+import "base.proto";           // описание protobuf-типов
+import "articles_base.proto"; // описание protobuf-типа NFactType.TFact
+import "kwtypes_base.proto";
+
+message bad_output : TAuxDicArticle {}
