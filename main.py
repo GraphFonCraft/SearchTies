@@ -9,7 +9,7 @@ import codecs
 import run_tomita
 import web_search_utils
 import post_facts_parser
-	
+
 import sys
 
 reload(sys)
@@ -23,14 +23,15 @@ def hello_world():
 		descriptionshort = 'Любое слово или фраза',
 		inputsubmit = 'Узнать',
 		buttonText = 'Узнать',
-		forExample = 'Например, '
+		forExample = 'Например, ',
+		footer = '<p>Создано в рамках <a href="http://vk.com/vladivostokhackathon">VL Hackathon II</a></p>'
 		)
-	
+
 @app.route('/search', methods=['POST', 'GET'])
-def search():	
+def search():
 	query = (request.args['q'])
 
-	relatedUrls = web_search_utils.getTopDuck2GoUrls(query)	
+	relatedUrls = web_search_utils.getTopDuck2GoUrls(query)
 	facts_urls = web_search_utils.printToFile(relatedUrls)
 
 	run_tomita.tomita()

@@ -1,4 +1,5 @@
 ﻿from xml.dom.minidom import parse
+import random
 #from sets import Set
 
 def parser(xml_file_dir, query, facts_urls):
@@ -31,7 +32,7 @@ def parser(xml_file_dir, query, facts_urls):
 	i = 0
 	for item in list:
 		i+=1
-		need_output += '{ "title" : "'+item+'", "source" : "'+ facts_urls[list[item]] +'", "weight" : "'+ `weight[list[item]]` +'" }'
+		need_output += '{ "text" : "'+item+'", "source" : "'+ facts_urls[list[item]] +'", "weight" : "'+ `weight[list[item]] + random.randint(-2, 2)` +'" }'#, "handlers": { "click": "jQCloudHandler($(this))"}}'
 		if i != len(list):
 			need_output += ', '	
 

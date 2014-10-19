@@ -5,51 +5,85 @@ from BeautifulSoup import BeautifulSoup
 from alchemyapi import AlchemyAPI
 
 import urllib2
-import random
 import re
 import json
 import codecs
 import os
 import socket
+import ssl
 
-from readability.readability import Document
+#from readability.readability import Document
 #import urllib
+
+def filterUrls(urls):
+	urlReBlacklist = [
+		"youtube.com",
+		"vk.com",
+		"mistudenti.ru",
+		"2ch"
+	]
+
+	badAssUrlIndex = []
+	for i in range(len(urls)):
+		for badAssUrl in urlReBlacklist:
+			if (re.search(badAssUrl, urls[i])):
+				badAssUrlIndex.append(i)
+
+	for i in reversed(badAssUrlIndex):
+		del urls[i]
+
+	return urls
 
 def getTopDuck2GoUrls(queryString):
 	queryTemplate = "http://duckduckgo.com/html/?q="
 	querryLocal = "&kl=ru-ru"
 	queryUrl = queryTemplate + queryString + querryLocal
 	site = urllib2.urlopen(urllib2.Request(queryUrl))
-	htmlResponse = site.read()
+	
+	try:
+		htmlResponse = site.read()
+	except socket.timeout, e:
+		htmlResponse = ""
+		pass
+	except urllib2.URLError, e:
+		htmlResponse = ""
+		pass
 	
 	parsedResponse = BeautifulSoup(htmlResponse)
 	links = []
 	for i in parsedResponse.findAll('div', {'class': re.compile('links_main*')}):
 		links.append( i.a['href'] )
-	return links
+	result = filterUrls(links)
 
-def old_getArticleText(articleUrl):
-    alchemyapi = AlchemyAPI()
-    response = alchemyapi.text('url', articleUrl)
+	#print "Filtered stuff:"
+	#for item in result:
+	#	print item
 
-    return response['text'].encode('utf-8')
+	return result
 
 def getSafeJustText(articleUrl):
 	try:
-		text = (urllib2.urlopen(articleUrl, timeout=1).read()).encode('utf-8')
+		text = urllib2.urlopen(articleUrl, timeout=1).read()
+		charset = get_charset(text)
+		print (charset)
+		#if charset!="": for Danila
+		text = text.decode(charset)
+		#text = ""
 	except socket.timeout, e:
 		text = ""
 		pass
 	except urllib2.URLError, e:
 		text = ""
 		pass
+	except ssl.SSLError, e:
+		text = ""
+		pass
 	return text
-
-def old_getFastText(articleUrl):
-	print("start" + articleUrl)
-	html = urllib2.urlopen(articleUrl, timeout=1).read()
-	readable_article = Document(html).summary()
-	return readable_article.encode('utf-8')
+	
+def get_charset(header):
+    match = re.search(r'charset=([^\s;]+)', header)
+    if match:
+        return match.group(1).strip('"\'').lower()
 	
 def printToFile(links):
 	facts_urls = {}
@@ -58,15 +92,16 @@ def printToFile(links):
 	else:
 		parse_pages_count = len(links)	
 
-	for i in range(parse_pages_count): 
-		a_text = getSafeJustText(links[i])
-		#a_text = getFastText(links[i])
-		text_patch = "/srv/http/app/texts/" + `i` 
-		output_file = codecs.open(text_patch, 'w', "utf-8")
-		output_file.write(a_text)
-				
-		facts_urls[i] = links[i]
-		output_file.close()
+	if parse_pages_count > 0:
+		for i in range(parse_pages_count): 
+			a_text = getSafeJustText(links[i])
+			#a_text = getFastText(links[i])
+			text_patch = "/srv/http/app/texts/" + `i` 
+			output_file = codecs.open(text_patch, 'w', "utf-8")
+			output_file.write(a_text)
+					
+			facts_urls[i] = links[i]
+			output_file.close()
 			
 	return facts_urls
 			
